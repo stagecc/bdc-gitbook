@@ -69,15 +69,15 @@ All research data shared with BDC must be registered through dbGaP, though the c
 * The GPA will share the accession number and the consent group information with the DMC to create Data Submission Infrastructure for your study.
 * You will receive an automated email from dbGaP to complete Study Submission (see screenshots of the dbGaP email below).
 
-<figure><img src="../../.gitbook/assets/Picture1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture1.png" alt=""><figcaption></figcaption></figure>
 
-:arrow\_right: **Data Submitter Action Item 1: After receiving the automated email from dbGaP, complete the dbGaP submission process** using guidance available in the [dbGaP Study Configuration Process for Submission of Data to BDC](../dbgap-study-configuration-for-bdc.md) (See a screenshot of the dbGaP Study Submission portal below). Study Config consists of a web form that collects a description of the study data, methods, and findings, inclusion/exclusion, study history, references, attributions, and terms that will be indexed to enable users to search for your study in dbGaP Advanced Search.
+:arrow\_right: **Data Submitter Action Item 1: After receiving the automated email from dbGaP, complete the dbGaP submission process** using guidance available in the [dbGaP Study Configuration Process for Submission of Data to BDC](../data-management/dbgap-study-configuration-for-bdc.md) (See a screenshot of the dbGaP Study Submission portal below). Study Config consists of a web form that collects a description of the study data, methods, and findings, inclusion/exclusion, study history, references, attributions, and terms that will be indexed to enable users to search for your study in dbGaP Advanced Search.
 
 {% hint style="info" %}
 **Note**: Gather all information ahead of the web form entry, as the current form does not have a “save” button for partial entry. Click [here ](https://drive.google.com/drive/folders/1Bptlz7jMDMGMADQpbs7CIxrhZLbYzW69?usp=drive_link)to download the example files for dbGaP submission.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
 
 :white\_check\_mark: **Results**
 
@@ -123,25 +123,25 @@ Data upload may not begin until your data is prepared (see Step 3: Data Preparat
 
 :arrow\_right: **Data Submitter Action Item 2: Access the cloud bucket created for your study.** You will receive a secure email from the Information Technology Applications Center (ITAC) team at NHLBI that provides the URL to activate the access with user ID and password (see screenshot below):
 
-<figure><img src="../../.gitbook/assets/Picture3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture3.png" alt=""><figcaption></figcaption></figure>
 
 Follow the links and instructions in the email to activate the Amazon Web Service (AWS) S3 web interface.
 
-<figure><img src="../../.gitbook/assets/Picture4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture4.png" alt=""><figcaption></figcaption></figure>
 
 If you have any questions or issues about accessing the buckets, please contact [nhlbi.dmc.concierge@rti.org](mailto:nhlbi.dmc.concierge@rti.org)
 
 :arrow\_right: **Data Submitter Action Item 3: Upload data sets to the cloud bucket created for your study.** After access, upload datasets for each consent group to the corresponding buckets (e.g., xxxx-c1) as described in the dbGaP 2b file.
 
-<figure><img src="../../.gitbook/assets/Picture5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture5.png" alt=""><figcaption></figcaption></figure>
 
 Once selected the specific bucket for a consent group, use the “Upload” button to upload data files.
 
-<figure><img src="../../.gitbook/assets/Picture6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture6.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;If you choose to use the GCP platform, see screenshot below (“upload” highlighted)
 
-<figure><img src="../../.gitbook/assets/Picture7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture7.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5: Next Steps
 

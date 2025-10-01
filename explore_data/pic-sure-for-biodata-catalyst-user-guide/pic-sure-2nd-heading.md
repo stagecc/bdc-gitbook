@@ -10,7 +10,7 @@ After you have created an eRA Commons account, you can log in to _BDC-PIC-SURE_ 
 
 Upon login, you will be directed to the **Data Access Dashboard**. This page provides a summary of PIC-SURE Authorized Access, PIC-SURE Open Access, and the studies you are authorized to access.
 
-<figure><img src="../../../../.gitbook/assets/PIC-SURE_Data_Access_Dashboard.png" alt=""><figcaption><p>PIC-SURE Data Access Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PIC-SURE_Data_Access_Dashboard.png" alt=""><figcaption><p>PIC-SURE Data Access Dashboard</p></figcaption></figure>
 
 
 

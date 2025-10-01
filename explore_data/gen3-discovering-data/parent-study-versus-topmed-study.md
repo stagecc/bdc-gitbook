@@ -15,7 +15,7 @@ A list of **current project IDs** can be found in the Data tab, under Filters>Pr
 * Open\_Access
 * Tutorial
 
-![The list of current project IDs can be found under Project Id.](<../../../.gitbook/assets/BDC_Dec20_projects_parent_topmed_tuorial_open_2 (1).png>)
+![The list of current project IDs can be found under Project Id.](<../../.gitbook/assets/bdc_dec20_projects_parent_topmed_tuorial_open_2 (1).png>)
 
 ## Parent and TOPMed Studies
 
@@ -23,7 +23,7 @@ A list of **current project IDs** can be found in the Data tab, under Filters>Pr
 
 The Parent and TOPMed study types have been categorized on Gen3 by their Program designation. An example of this designation by Program is presented below.
 
-![A list of Parent (underlined in blue) and TOPMed studies (underlined in red).](../../../.gitbook/assets/BDC_Dec20_projects_parent_topmed.png)
+![A list of Parent (underlined in blue) and TOPMed studies (underlined in red).](../../.gitbook/assets/bdc_dec20_projects_parent_topmed.png)
 
 The Program types can be further identified by whether there is an underscore (`_`) at the end of the study:
 

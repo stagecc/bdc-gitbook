@@ -11,4 +11,4 @@ When you open any WDL and CWL workflow in Dockstore, you will see the option to 
 * If you selected a CWL workflow, this workflow will launch in _BDC Powered by Seven Bridges (BDC-Seven Bridges)_. [Learn more about how this integration works.](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 * If you selected a WDL workflow, this workflow will launch in _BDC Powered by Terra (BDC-Terra)_. [Learn more about how this integration works](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/~/drafts/-M40bCpA4OvGYZ_ueIsA/community-tools-and-integration/dockstore-integration-with-terra).
 
-![Dockstore's Launch With button](<../../../.gitbook/assets/Launch With.png>)
+![Dockstore's Launch With button](../../.gitbook/assets/launch-with.png)

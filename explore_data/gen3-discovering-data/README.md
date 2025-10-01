@@ -10,13 +10,13 @@ description: >-
 
 In order to navigate and access data available on the Gen3 platform, start by visiting the [login page](https://gen3.biodatacatalyst.nhlbi.nih.gov/login). You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes (dbGaP)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, login by selecting **NIH Login** and using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BDC consortia developers can login using their Google accounts. Make sure to use the correct login method that contains access to your available projects.
 
-![](../../../.gitbook/assets/Gen3-login.png)
+![](../../.gitbook/assets/Gen3-login.png)
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files available within the BDC platform.
 
 > **NOTE**: These numbers may differ from those displayed in the dbGaP records as they include TOPMed studies as well as the associated parent studies.&#x20;
 
-![Post-login view of the BDC-Gen3 front page.](../../../.gitbook/assets/BDC_Dec20_firstpage_after_login.png)
+![Post-login view of the BDC-Gen3 front page.](../../.gitbook/assets/bdc_dec20_firstpage_after_login.png)
 
 ## Types of Hosted Data <a href="#types-of-hosted-data" id="types-of-hosted-data"></a>
 
@@ -48,4 +48,4 @@ The _BDC-Gen3_ platform contains five pages described below:
 * [**Workspace**](workspace.md)**:** The launch page for Gen3 workspaces that includes Jupyter Notebooks and RStudio
 * [**Profile**](profile.md)**:** The information page for each user, displaying access and the location for credential file downloads
 
-![The BDC-Gen3 Pages.](../../../.gitbook/assets/Page_toolbar.png)
+![The BDC-Gen3 Pages.](../../.gitbook/assets/page_toolbar.png)

@@ -24,11 +24,11 @@ _BDC Powered by Seven Bridges_ (_BDC-Seven Bridges_) provides a full _**Software
 
 The SDK consists of a tool editor and a pipeline editor. Both are based on the open-source project _**Rabix**_, a portmanteau of "Reproducible Analyses for Bioinformatics" (for more information, see [rabix.io](https://rabix.io/)). The goal of the SDK is to guide the user through the process of creating fully functional analytical pipelines that can be tested, scaled up to population-scale analysis, and shared with the research community. The SDK also has built-in version control at the tool and workflow level to enable the full reproducibility of previous versions.
 
-![ Figure 3. Overview of BDC Tool Wrapping process](../../../.gitbook/assets/fig_03.png)
+![ Figure 3. Overview of BDC Tool Wrapping process](../../.gitbook/assets/fig_03.png)
 
 The Tool Editor guides the user through the creation of a portable CWL description by linking a pre-built Docker image (see section _Working with Docker_) to a command line or script that will be run inside the container. The above image shows the tool wrapping process. The Tool Editor enables users to easily create CWL by filling out the GUI template (Figure 4). This simplifies the technical aspects of this process and makes it as easy as possible for users to get their tools set up on the platform. The CWL code can also be edited directly in the tool editor if that is desired. For users working with JavaScript, JavaScript dynamic expressions can be tested without having to leave the tool editor.
 
-![Figure 4. Visual interface for creation and editing of CWL workflows](../../../.gitbook/assets/fig_04.png)
+![Figure 4. Visual interface for creation and editing of CWL workflows](../../.gitbook/assets/fig_04.png)
 
 Learn more via this [tutorial](https://sb-biodatacatalyst.readme.io/v1.0/docs/workflow-editor-tutorial).
 
@@ -42,7 +42,7 @@ The Seven Bridges platform has built-in optimizations to execute a workflow for 
 
 Finally, linking multiple tools together also has the added benefit of increasing computational efficiency. When running workflows, multiple tools can use the same compute instance if multiple CPU cores are available. This saves time and funds and increases the ability to run jobs in parallel with no additional configurations.
 
-![ Figure 5. Showing how tools can be connected together into 1 workflow](../../../.gitbook/assets/fig_05.png)
+![ Figure 5. Showing how tools can be connected together into 1 workflow](../../.gitbook/assets/fig_05.png)
 
 In the following sections, we will build the workflow in the above image. Here, we can visually see the importance of creating a workflow: running each of these tools separately would require more steps from the user and require more unnecessary data to be moved back and forth from the cloud computational instance to the user’s workspace. Therefore, running as a single workflow achieves the best efficiency. &#x20;
 
@@ -50,7 +50,7 @@ In the following sections, we will build the workflow in the above image. Here, 
 
 _Before getting started with this section, we recommend first creating a development workspace (called projects on Seven Bridges) to house the new tool(s) and workflow(s) while they are being created and tested. Please see the Seven Bridges_ [_Getting Started Guide_](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/seven-bridges/getting-started-guide#create-a-project) _for detailed instructions about how to create projects._
 
-![Figure 6. Create a project on Seven Bridges](../../../.gitbook/assets/fig_06.png)
+![Figure 6. Create a project on Seven Bridges](../../.gitbook/assets/fig_06.png)
 
 Figure 6 shows all the options available when creating a project on Seven Bridges including selecting the _Billing Group_.  If used conservatively, the BDC pilot funding is adequate to cover the costs associated with developing a tool or workflow on the platform.&#x20;
 
@@ -62,7 +62,7 @@ Researchers should outline their pipeline into individual steps. These steps sho
 
 A great place to outline your tool is in your development project description, shown below: &#x20;
 
-![Figure 7. Project description space can be used to outline tool](../../../.gitbook/assets/fig_07.png)
+![Figure 7. Project description space can be used to outline tool](../../.gitbook/assets/fig_07.png)
 
 It is important to determine if there are tools (steps in your outline) that have already been wrapped and are published in either Dockstore or the Seven Bridges Public Apps Gallery. This reduces the time in porting analytical workflows to the cloud because these steps will not have to be re-validated or re-benchmarked. This also promotes developing with “separation of concerns.” This means that every tool (step) can be versioned, tested, and improved without adversely affecting the entire workflow.\
 \
@@ -82,11 +82,11 @@ To use the SDK tool editor to wrap MultiQC, we will follow these steps in the de
 
 **Step 1:** In the development project, click on the Apps tab and select “Add app.”
 
-![](../../../.gitbook/assets/fig_07_1.png)
+![](../../.gitbook/assets/fig_07_1.png)
 
 **Step 2:** On the next screen, select “Create a Tool.”
 
-![](../../../.gitbook/assets/fig_07_2.png)
+![](../../.gitbook/assets/fig_07_2.png)
 
 **Step 3:** Name your tool “MultiQC” and create a version CWL 1.0 tool. This will automatically take you to the visual Tool Editor.
 
@@ -97,29 +97,29 @@ To use the SDK tool editor to wrap MultiQC, we will follow these steps in the de
 * For this example, we just need one input port which is an array of our quality control files from the upstream apps. We do not need any additional parameters for this example. If you are wrapping your own custom script, you can configure multiple input ports of different types.
 * Please see Figure 8 for where to fill in the details.
 
-![Figure 8. Fill out details for MultiQC tool](../../../.gitbook/assets/fig_08.png)
+![Figure 8. Fill out details for MultiQC tool](../../.gitbook/assets/fig_08.png)
 
 Be sure to create an input of type “array” which has items of type “File.” The MultiQC executable does not require that inputs of different types be prefaced with any flags or indicators. When wrapping an executable that requires distinguishing inputs (e.g. “--arg1 --arg2”), multiple inputs would need to be added.
 
 The tool editor gives the user a preview of the resulting command line:&#x20;
 
-![](../../../.gitbook/assets/fig_08_1.png)
+![](../../.gitbook/assets/fig_08_1.png)
 
 This is a relatively simple one and the arguments are just the full paths in the input file array. Features such as file metadata and JavaScript expression can be used to create a more sophisticated Linux command line for other tools.
 
 * The output port is the comprehensive MultiQC report (Figure 9) that the software tool creates. For this output, we will use a wildcard inside the “glob” field. The “glob” is simply how the tool will select which files to keep from the current working directory. The user can create as many output ports as necessary. Since MultiQC is a simplification and summarization tool we will only have one HTML report which can be acquired using a glob of “\*.html.” &#x20;
 
-![Figure 9. MultiQC report as output port](../../../.gitbook/assets/fig_09.png)
+![Figure 9. MultiQC report as output port](../../.gitbook/assets/fig_09.png)
 
 The output “glob” field (like all fields in the tool editor) has the ability to use JavaScript expressions to dynamically search for files in a very specific manner such as the full path that is based on the input files or to scan through a deep folder structure.  &#x20;
 
 The completed tool will look like this:
 
-![Figure 10. Completed Tool](../../../.gitbook/assets/fig_10.png)
+![Figure 10. Completed Tool](../../.gitbook/assets/fig_10.png)
 
 Finally, we should consider the Computational Resources section of the Tool Editor. Here it is important to specify the minimum compute required. Because our example tool is not computationally intensive we can require a minimal amount of RAM and CPU. Through JavaScript dynamic expressions we can customize these computational requirements to scale with either the input file sizes or user input parameters. The Seven Bridges job scheduler will select the appropriate cloud instance(s) based on these constraints. In the next section, we will discuss how the user can also specify a suggested AWS or GCP cloud instance by adding “hints.”
 
-![Figure 11. Computational Resources section of Tool Editor](../../../.gitbook/assets/fig_11.png)
+![Figure 11. Computational Resources section of Tool Editor](../../.gitbook/assets/fig_11.png)
 
 Tools can be tested by themselves, but in some cases, it makes more sense to test the tool in the context of the complete workflow. For simplicity, we will add MultiQC to the workflow and use the output from the tool upstream of MultiQC in the workflow to test the MultiQC tool.
 
@@ -127,7 +127,7 @@ Finding appropriate test data is key to testing tools and workflows. Wherever po
 
 Seven Bridges hosts a number of test files in the [Public Files Gallery](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/resources/public-gallery/files) that range from reference files to test size input data. Users can link these test files to their project instead of uploading their own test data to avoid storage costs. One of these test files is the human whole-exome sequencing sample [merged-normal.bam](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/resources/public-gallery/files/dfaca822-cf5f-4043-bf7f-3c8dd522a63d) which we will use for testing here. You can view the provenance of this test file by clicking on the file name and then on “metadata”:
 
-![](../../../.gitbook/assets/fig_11_1.png)
+![](../../.gitbook/assets/fig_11_1.png)
 
 This file is a “subset” of the whole exome data and is, therefore, a good choice for testing since the cost per analysis will be less than if data from all chromosomes were used. Tools should always be tested separately. When wrapping a tool the user should obtain access to data they can use for testing. The above metadata description also tells us the exact reference that was used for the read alignment. Seven Bridges also has the same reference file in the Public Files Gallery called [human\_g1k\_v37\_decoy.fasta](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/resources/public-gallery/files/1536a7fa-04bc-4d19-a24d-f1e6a4025352).
 
@@ -139,19 +139,19 @@ The next step is to add our tool to a workflow with the upstream QC tools. We wi
 
 **Step 1.** The first step is to create a new “blank canvas” in the workflow editor. Go to the Apps tab in the development project and click on “Add app.” This time select “Create a workflow”.
 
-![](../../../.gitbook/assets/ss13.png)
+![](../../.gitbook/assets/ss13.png)
 
 **Step 2.** After creating the workflow, the next screen is a blank canvas in the Workflow Editor. From here, we can add multiple QC apps that are compatible with MultiQC to the canvas directly from the Public Apps Gallery. Search for “fastqc” and then for “picard alignment metrics” and use the mouse to drag them onto the workflow canvas.
 
-![](../../../.gitbook/assets/ss14.png)
+![](../../.gitbook/assets/ss14.png)
 
 Add the MultiQC CWL tool from the current project in the “My Projects” tab.  The screen will look like this:
 
-![](../../../.gitbook/assets/ss15.png)
+![](../../.gitbook/assets/ss15.png)
 
 The next step is to connect the apps together. The nodes that are displayed on the workflow canvas represent apps. The input and output ports are represented by small circles on the perimeter of the node. Circles on the left of the node represent **input ports** whereas the ones on the right indicate **output ports**. Use the mouse to connect the wireframe together. The completed workflow will look like this:
 
-![](../../../.gitbook/assets/fig_11_4_maybe.png)
+![](../../.gitbook/assets/fig_11_4_maybe.png)
 
 This simple workflow highlights several advantages of the workflow editor. Notice that the “input file” input port node which represents an aligned bam file for this workflow feeds into both the Picard CollectWgsMetrics and FastQC tools. This means that the end-user only needs to specify this input one time when running the task and that the alignment metrics and FastQC tools will run in parallel, conserving time and funds. &#x20;
 
@@ -159,11 +159,11 @@ Take note that one of the FastQC outputs is not connected to any downstream tool
 
 We can test the workflow directly on the platform. Seven Bridges has multiple reference files in the Public Gallery. A completed task of the workflow will have one interactive report as an output. See the completed task in Figure 12.
 
-![Figure 12. Completed Task page where users can access output files](../../../.gitbook/assets/fig_12.png)
+![Figure 12. Completed Task page where users can access output files](../../.gitbook/assets/fig_12.png)
 
 The output of MultiQC is an interactive report that is viewable directly on the platform:
 
-![Figure 13. Interactive report from MultiQC tool](../../../.gitbook/assets/fig_13.png)
+![Figure 13. Interactive report from MultiQC tool](../../.gitbook/assets/fig_13.png)
 
 For more information about the workflow editor and for other examples please refer to the following materials in the Seven Bridges documentation:
 
@@ -177,23 +177,23 @@ There are two easy ways to scale your workflows on Seven Bridges. We refer to th
 
 Using our NGS QC workflow example we can create a batch task for every file in the input file port, as shown in Figure 14. This batch task will create 1 child task for each input bam file.
 
-![Figure 14. Creating a batch task](../../../.gitbook/assets/fig_14.png)
+![Figure 14. Creating a batch task](../../.gitbook/assets/fig_14.png)
 
 We can use another method called “scattering,” which operates inside a single task. This means that a workflow can utilize multiple cores in a single compute instance, which is often more efficient than using multiple instances. Scattering can only be used at the workflow level, not at the tool level. To use scattering, we need to edit our workflow. We make the input file of type “array” and the array type “file” as shown in Figure 15.&#x20;
 
-![Figure 15. Input file settings for scatter ](../../../.gitbook/assets/fig_15.png)
+![Figure 15. Input file settings for scatter ](../../.gitbook/assets/fig_15.png)
 
 Click on each of our QC tools and select “Step.” In the “step” panel select the appropriate input to scatter on. In this case, we scatter by “input\_bam” for the Picard Collect WGS Metrics tool and by “input\_fastq” for the FastQC tool. When the workflow is run, the user can select multiple input files and each of them will be processed in parallel on separate compute nodes.
 
-![Figure 16. Scatter by input\_bam for Picard tool](../../../.gitbook/assets/fig_16.png)
+![Figure 16. Scatter by input\_bam for Picard tool](../../.gitbook/assets/fig_16.png)
 
-![Figure 17. Scatter by input\_fastq for FastQC tool.](../../../.gitbook/assets/fig_17.png)
+![Figure 17. Scatter by input\_fastq for FastQC tool.](../../.gitbook/assets/fig_17.png)
 
 This was a brief introduction to the powerful scatter ability of the workflow editor. Please see the section [_Comprehensive tips for reliable and efficient analysis set-up_](https://sb-biodatacatalyst.readme.io/page/comprehensive-tips-for-reliable-and-efficient-analysis-set-up) of the Seven Bridges documentation for more information.
 
 When running your custom workflow, you can define computational requirements so that there are enough memory and CPUs to run multiple jobs in parallel. For example, if your tool requires 4GB of RAM and you select an instance with 8 CPUs and 32G RAM, you will see that 8 jobs are running in parallel when you run your workflow as shown in Figure 18.
 
-![Figure 18. Scatter](../../../.gitbook/assets/fig_18.png)
+![Figure 18. Scatter](../../.gitbook/assets/fig_18.png)
 
 If you have followed this guide, your tool has now been wrapped and added to a workflow. It has also been tested on a “toy” dataset and validated against real data for your project. In the next sections, you will learn how to export CWL from the platform, create a GitHub repository for version control, and also how to publish to Dockstore.
 
@@ -203,11 +203,11 @@ Not all tools need to be command-line binaries. Many researchers bring their she
 
 For example, if we wanted to run an R script using the GENESIS Docker image we could do that without having to recreate the Docker image. To run a specific script that is not included in the Docker image, use the “File requirements” field shown in Figure 19. Specify a name for your file and paste in the file contents.
 
-![Figure 19. File Requirements box](../../../.gitbook/assets/ss19.png)
+![Figure 19. File Requirements box](../../.gitbook/assets/ss19.png)
 
 Then enter the name of the file in the “Base command” section along with the command required to execute it (e.g. Rscript):
 
-![](../../../.gitbook/assets/ss20.png)
+![](../../.gitbook/assets/ss20.png)
 
 Similarly, if you were using a python script the base command would be “Python.”  Using the files requirements section of the Tool Editor we can execute any type of script without having to create a new Docker container. &#x20;
 

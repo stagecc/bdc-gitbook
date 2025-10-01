@@ -26,7 +26,7 @@ Go to [BioData Catalyst Powered by Gen3](https://gen3.biodatacatalyst.nhlbi.nih.
 
 ### Request Access
 
-You can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). For more information on Data Access, see the [Data Accessibility](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/exploration#data-accessibility) on the [Exploration](../explore-available-data/gen3-discovering-data/exploration.md) page.
+You can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). For more information on Data Access, see the [Data Accessibility](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/exploration#data-accessibility) on the [Exploration](../explore_data/gen3-discovering-data/exploration.md) page.
 
 ## _**BDC powered by Seven Bridges (BDC-Seven Bridges)**_**&#x20;platform**
 

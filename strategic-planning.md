@@ -12,19 +12,19 @@ The table below defines the BDC Core Terminology:
 | User Stories   | <p>A backlog item that describes a requirement or functionality for a user</p><p>*Finest level of PM Monitoring </p>                                                                                                                                                    | A user can access PIC-SURE through an icon on BDC to initiate search                                                                                                  |
 | Workstream     | A collection of related features; orthogonal to a User Narrative                                                                                                                                                                                                        | <p>Workstreams impacted by the User Narrative above include:</p><ul><li>production system</li><li>data analysis</li><li>data access</li><li>data management</li></ul> |
 
-![](../.gitbook/assets/project-management-approach.png)
+![](.gitbook/assets/project-management-approach.png)
 
-{% file src="../.gitbook/assets/PM-graphic.pdf" %}
+{% file src=".gitbook/assets/pm-graphic.pdf" %}
 Project Management Approach PDF
 {% endfile %}
 
 ### Strategic Planning Documents Reviewed & Approved by NHLBI Leadership
 
-{% file src="../.gitbook/assets/BioData-Catalyst-Strategic-Framework-Plan-V1-v2.0 (1).pdf" %}
+{% file src=".gitbook/assets/biodata-catalyst-strategic-framework-plan-v1-v2.0-1-.pdf" %}
 
-{% file src="../.gitbook/assets/BioData-Catalyst-Implementation-Plan-V1-v2.0.pdf" %}
+{% file src=".gitbook/assets/biodata-catalyst-implementation-plan-v1-v2.0.pdf" %}
 
-{% file src="../.gitbook/assets/BioData Catalyst Data Management Strategy - V1.0(3).pdf" %}
+{% file src=".gitbook/assets/biodata-catalyst-data-management-strategy-v1.0-3-.pdf" %}
 
-{% file src="../.gitbook/assets/BioData Catalyst Project Management Plan V2.0 (1).pdf" %}
+{% file src=".gitbook/assets/biodata-catalyst-project-management-plan-v2.0-1-.pdf" %}
 

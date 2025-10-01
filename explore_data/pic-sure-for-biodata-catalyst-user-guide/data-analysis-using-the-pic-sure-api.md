@@ -16,7 +16,7 @@ To access the PIC-SURE API, a user-specific token is needed. This is the way the
 
 Here, you can **Copy** your personalized access token, **Reveal** your token, and **Refresh** your token to retrieve a new token and deactivate the old token.
 
-<figure><img src="../../../.gitbook/assets/UserAccessToken.png" alt=""><figcaption><p>User Profile modal displaying personalized access token.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/UserAccessToken.png" alt=""><figcaption><p>User Profile modal displaying personalized access token.</p></figcaption></figure>
 
 ## **Analysis in the BDC Ecosystem**
 
@@ -32,15 +32,15 @@ From the **Analyze Data in Cloud-based Shared Workspaces** section, select **Lau
 
 Jupyter notebook examples in R and python can be found under the **Public projects** tab by selecting **PIC-SURE API**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/BDC-SB-1.png" alt=""><figcaption><p>Navigating to the <strong>PIC-SURE API</strong> in Seven Bridges <strong>Public Projects</strong>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDC-SB-1.png" alt=""><figcaption><p>Navigating to the <strong>PIC-SURE API</strong> in Seven Bridges <strong>Public Projects</strong>.</p></figcaption></figure>
 
 From the **Data Studio** tab, select an example that fits your research needs. Here, we will select **PIC-SURE JupyterLab examples**.
 
-<figure><img src="../../../.gitbook/assets/SB-PICSUREAPI.png" alt=""><figcaption><p>Dashboard of the <strong>PIC-SURE API</strong> on Seven Bridges</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SB-PICSUREAPI.png" alt=""><figcaption><p>Dashboard of the <strong>PIC-SURE API</strong> on Seven Bridges</p></figcaption></figure>
 
 This will take you to the PIC-SURE API analysis workspace, where you can view the examples in python. Copy this workspace to your own project to edit or run the code yourself.
 
-<figure><img src="../../../.gitbook/assets/BDC-SB-3.png" alt=""><figcaption><p>Copying the <strong>PIC-SURE API</strong> Public Project to a workspace from the Data Studio page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDC-SB-3.png" alt=""><figcaption><p>Copying the <strong>PIC-SURE API</strong> Public Project to a workspace from the Data Studio page.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note**\
@@ -51,8 +51,8 @@ The project must have network access to run the PIC-SURE examples on Seven Bridg
 
 To access the Jupyter notebook examples in R and python for the PIC-SURE API, select **View Workspaces** from the [Terra landing page](https://terra.biodatacatalyst.nhlbi.nih.gov/). &#x20;
 
-![BioData Catalyst Powered by Terra landing page](../../../.gitbook/assets/Terra.png)
+![BioData Catalyst Powered by Terra landing page](../../.gitbook/assets/Terra.png)
 
 Select the **Public** tab and search for “PIC-SURE”. Workspaces for both the python and R examples will be displayed. You must clone the workspaces to edit or run the code within them.
 
-<figure><img src="../../../.gitbook/assets/BDC-Terra.png" alt=""><figcaption><p>Searching for the PIC-SURE API examples in Terra workspaces</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BDC-Terra.png" alt=""><figcaption><p>Searching for the PIC-SURE API examples in Terra workspaces</p></figcaption></figure>

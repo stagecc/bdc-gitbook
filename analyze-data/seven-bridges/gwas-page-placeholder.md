@@ -36,23 +36,23 @@ The contents of this guide are arranged as follows:&#x20;
 
 Below is a link to **download the results of our Benchmarking Analysis** described herein. It may prove useful to have this file open for reference when reading through this guide.&#x20;
 
-{% file src="../../../.gitbook/assets/GENESIS Benchmarking - VCF to GDS.csv" %}
+{% file src="../../.gitbook/assets/GENESIS Benchmarking - VCF to GDS.csv" %}
 Benchmarking: VCF to GDS
 {% endfile %}
 
-{% file src="../../../.gitbook/assets/GENESIS Benchmarking - Null Model.csv" %}
+{% file src="../../.gitbook/assets/GENESIS Benchmarking - Null Model.csv" %}
 Benchmarking: Null Model
 {% endfile %}
 
-{% file src="../../../.gitbook/assets/GENESIS Benchmarking - Single test.csv" %}
+{% file src="../../.gitbook/assets/GENESIS Benchmarking - Single test.csv" %}
 Benchmarking: Single Test
 {% endfile %}
 
-{% file src="../../../.gitbook/assets/GENESIS Benchmarking - Aggregate test.csv" %}
+{% file src="../../.gitbook/assets/GENESIS Benchmarking - Aggregate test.csv" %}
 Benchmarking: Aggregate Test
 {% endfile %}
 
-{% file src="../../../.gitbook/assets/GENESIS Benchmarking - Sliding window test.csv" %}
+{% file src="../../.gitbook/assets/GENESIS Benchmarking - Sliding window test.csv" %}
 Benchmarking: Sliding Window
 {% endfile %}
 
@@ -66,7 +66,7 @@ Before continuing on to the benchmarking results, please familiarize yourself wi
 * **Task**: Represents an execution of a particular tool or workflow on the platform. Depending on what is being executed (tool or workflow), a single task can consist of only one tool execution (tool case) or multiple executions (one or more per each tool in the workflow).
 * **Job**: This refers to the “execution” part from the “Task” definition (see above). It represents a single run of a single tool found within a workflow. If you are coming from a computer science background, you will notice that the definition is quite similar to a common understanding of the term “job” ([wikipedia](https://en.wikipedia.org/wiki/Job_\(computing\))). Except that the “job” is a component of a bigger unit of work called a “task” and not the other way around, as in some other areas may be the case. To further illustrate what job means on the platform, we can visually inspect jobs after the task has been executed using the View stats & logs panel (button in the upper right corner on the task page):
 
-![](<../../../.gitbook/assets/BM SS1.png>)
+![](../../.gitbook/assets/bm-ss1.png)
 
 _**Figure 1.** The jobs for an example run of **RNA-Seq Quantification (HISAT2, StringTie)** public workflow_
 
@@ -86,7 +86,7 @@ _Check GDS_ tool is QC, which checks whether the final GDS file contains all var
 
 We advise anyone who is using this workflow to consider results from the table below because differences in execution time and price with and without this check are considerable. A final decision on the approach that someone will use depends on the resources that one has (budget and time), and the preference of including or excluding the optional QC step.&#x20;
 
-![](<../../../.gitbook/assets/BM SS 2.png>)
+![](../../.gitbook/assets/bm-ss-2.png)
 
 In addition, CPU/job and Memory/job parameters have direct effects on execution time and the cost of the **GENESIS VCF to GDS workflow**. A combination of these parameters defines the number of jobs (files) that will be processed in parallel.&#x20;
 
@@ -107,13 +107,13 @@ The following conclusions were drawn from performed benchmarking:
 
 The **GENESIS Null model workflow** is not computationally intensive and it is relatively low-cost compared to other GENESIS workflows. For that reason, we present results that we obtained without any optimization below:
 
-![](<../../../.gitbook/assets/BM SS3.png>)
+![](../../.gitbook/assets/bm-ss3.png)
 
 The null model can be fit with relatedness matrices (i.e. mixed models) or without relatedness matrices (i.e. simple regression models). If a relatedness matrix is provided, it can be sparse or dense. The tasks with dense relatedness matrix are the most expensive and take the longest to run. For the **Null model workflow**, available AWS instances appear to be more suitable than Google instances available on the platform.
 
 ### **GENESIS Single Association testing**
 
-![](<../../../.gitbook/assets/BM SS4.png>)
+![](../../.gitbook/assets/bm-ss4.png)
 
 Results of the **GENESIS Single Association Testing workflow** benchmarking can be seen in the table above. Some important notes to consider when using this workflow:
 
@@ -145,13 +145,13 @@ Results of the **GENESIS Single Association Testing workflow** benchmarking can 
 
     Different tests can require different computational resources.
 
-![](<../../../.gitbook/assets/BM SS5.png>)
+![](../../.gitbook/assets/bm-ss5.png)
 
 As can be seen for small sample sizes, up to 10GB per job can be sufficient for successfully completed tasks. One exception is the case when running a task with null model fit with the dense relatedness matrix when approx. 36GB/job is needed. When there are 50k samples, jobs require 70GB. Details can be seen in the table above. In addition to sample size, the memory required is determined by the number of variants included in each aggregation unit, as all variants in an aggregation unit are analyzed together.
 
 SKAT and SMMAT tests are similar when it comes to CPU and Memory per job requirements. Roughly, these tests require 8GB/CPU, and details for different task configurations can be seen in the table below:
 
-![](<../../../.gitbook/assets/BM SS6.png>)
+![](../../.gitbook/assets/bm-ss6.png)
 
 * _**Maximum number of parallel instances:**_ The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time.
 * _**Spot instances:**_ If it is expected for the task to be finalized in a few hours it can be run on spot instances. This will reduce the execution cost. However, losing a spot instance leads to rerunning the task on on-demand instances, which can lead to a higher cost than running the task on on-demand instances from the beginning. That is why spot instances are generally suitable for short tasks.
@@ -174,9 +174,9 @@ GENESIS Sliding window association testing can be performed using burden, SKAT, 
 
 **Benchmarking results:**&#x20;
 
-![](<../../../.gitbook/assets/Bm SS7.png>)
+![](../../.gitbook/assets/bm-ss7.png)
 
-![](<../../../.gitbook/assets/Bm SS8.png>)
+![](../../.gitbook/assets/bm-ss8.png)
 
 ### **General considerations**
 

@@ -5,4 +5,4 @@ One of the key steps to becoming an advanced user and being able to fully unders
 * Find the written tutorial [here](https://sb-biodatacatalyst.readme.io/page/troubleshooting-tutorial).
 * Find the platform public project with examples [here](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/biodatacatalyst/troubleshooting-failed-tasks).
 
-![](<../../../.gitbook/assets/cheat sheet.png>)
+![](../../.gitbook/assets/cheat-sheet.png)
