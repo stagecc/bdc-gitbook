@@ -1,16 +1,20 @@
+---
+description: This is the 23rd update to the BDC ecosystem.
+---
+
 # 2025-11-15 BDC Ecosystem Release Notes
 
-### Introduction
+## Introduction
 
-The 2025-11-15 release marks the 23rd update to the BDC ecosystem. This release introduces several new features, including expanded data access, new interoperability tools, enhanced compute capabilities, and new bioinformatics workflows.
+The 2025-11-15 release introduces several [new features](2025-11-15-bdc-ecosystem-release-notes.md#significant-new-features), including expanded data access, new interoperability tools, enhanced compute capabilities, and new bioinformatics workflows.
 
-The 2025-11-15 data releases include the addition of 109 new datasets. See the Data Releases section below for more information.
+The 2025-11-15 data releases include the addition of 109 new datasets. See the [Data Releases](2025-11-15-bdc-ecosystem-release-notes.md#data-releases) section for more information.
 
-### Significant new features&#x20;
+## Significant New Features&#x20;
 
-The following new features this were released this quarter to improve researcher experience:
+The following new features this were released this quarter to improve the researcher experience.
 
-#### BDC Powered by Seven Bridges (BDC-Seven Bridges)
+### _BDC Powered by Seven Bridges_ (_BDC-Seven Bridges_)
 
 * SlicerJupyter, a new Data Studio environment for python-based interaction with 3D Slicer. The environment comes with several example notebooks explaining how to use the functionality for working with volumetric imaging data (for example, MRI, CT).&#x20;
 * Expanded Data Access: We enabled full Sequence Read Archive (SRA) access via RAS Passport. This integration unlocks petabytes of controlled SRA data for researchers with valid Data Access Requests (DARs), improving data interoperability and access.
@@ -18,13 +22,13 @@ The following new features this were released this quarter to improve researcher
 * Enhanced Compute Capabilities: We deployed AWS 6th and 7th generation compute instance types, along with G5 and G6 GPU-enabled instance types for use in Data Studio sessions. These new instances offer researchers faster networking, better processing power, and improved hardware acceleration for machine learning applications.
 * New bioinformatics workflows: CellTypist, CellPhoneDB Toolkit, Nextflow-scRNA-Seq, and Nextflow-RNAvar.
 
-#### BDC Powered by Terra (BDC-Terra)&#x20;
+### _BDC Powered by Terra_ (_BDC-Terra_)&#x20;
 
 * New workspaces now use a more optimized format for data tables to increase performance and scalability.&#x20;
 * Locking a workspace now makes the underlying bucket read-only while the workspace is locked.&#x20;
 * More information about new features can be found in the [Terra roadmap](https://support.terra.bio/hc/en-us/sections/30968105851931-Terra-Roadmap).
 
-### Data Releases
+## Data Releases
 
 The table below highlights which studies were included in the data releases in the months of August, September, and October 2025.
 
