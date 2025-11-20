@@ -94,6 +94,7 @@
 * [Writing BDC into a Grant Proposal](written-documentation/writing-biodata-catalyst-into-a-grant-proposal.md)
 * [Incurring Cloud Costs](written-documentation/writing-biodata-catalyst-into-a-grant-proposal-1.md)
 * [Release Notes](written-documentation/release-notes/README.md)
+  * [2025-11-15 BDC Ecosystem Release Notes](written-documentation/release-notes/2025-11-15-bdc-ecosystem-release-notes.md)
   * [2025-07-15 BDC Release Notes](written-documentation/release-notes/2025-07-15-bdc-release-notes.md)
   * [2025-04-15 BDC Release Notes](written-documentation/release-notes/2025-04-15-bdc-release-notes.md)
   * [2025-01-15 NHLBI BioData Catalyst Ecosystem Release Notes](written-documentation/release-notes/2025-01-15-nhlbi-biodata-catalyst-ecosystem-release-notes.md)
