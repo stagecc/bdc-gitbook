@@ -113,6 +113,5 @@ In the event that PHI is discovered in de-identified imaging data in BDC, such d
 Depending on the capabilities of the de-identification tool and the legal and logistic requirements for access to original identifiable images, de-identification may be done locally on the data-generating site or through a central cloud-based service.  Although the latter is often more efficient (semi-automated and scalable), the transfer of identifiable (PHI-containing) images to a central cloud may require agreements between the data provider (submitter) and the de-identification service provider, stipulated through execution of Data Transfer Agreement (DTA). Details as to the image de-identification process that will be used will be provided in a future RFC.
 
 \
-\
-
+<br>
 

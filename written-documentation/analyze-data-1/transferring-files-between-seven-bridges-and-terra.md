@@ -68,8 +68,7 @@ The `config` command provides a secure URL for you to navigate to in the browser
 
 Google will provide an authentication code that you will copy and paste into the terminal.
 
-Next, you will type in the Google Project id. This is found on the right side of the Terra Workspace Dashboard.\
-
+Next, you will type in the Google Project id. This is found on the right side of the Terra Workspace Dashboard.<br>
 
 ![](https://lh4.googleusercontent.com/kb2ZkyNDg9dxD42IaJcoPn5rW8Dg0Bw-UhaM-MLAE7HDdkGXBVvRVd4PHQcAOHmljKnDhBC56XHFPbz2h7DhQp6R96Ntdrk3Qu0NXLuPnhOZiqxiy6uKkJn0BFX9nTG56al5vvAC)
 

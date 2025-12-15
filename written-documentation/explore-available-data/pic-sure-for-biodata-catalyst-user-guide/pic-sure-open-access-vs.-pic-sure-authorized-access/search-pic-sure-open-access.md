@@ -58,4 +58,4 @@ We can easily repeat these steps for other studies, such as the Genetic Epidemio
 
 &#x20;
 
-I can then use the Request Access button to go directly to the study’s dbGaP page and begin submitting a DAR.\
+I can then use the Request Access button to go directly to the study’s dbGaP page and begin submitting a DAR.<br>

@@ -4,8 +4,7 @@
 
 The 2022-01-24 release marks the eighth release for the NHLBI BioData Catalyst ecosystem. This release includes several new features (e.g., the LocusZoom interactive app) along with documentation and tutorials (e.g., a guide for consortia using Seven Bridges) to help new users get started on the system. Please find more detail on the new features and user support materials in the sections below.
 
-The 2022-01-24 data release includes the addition of TOPMed Freeze 9 batch 1 & 2, CATHGEN and PETAL RED CORAL datasets. Please refer to the Data Release section below for more information as well as the[ Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.\
-
+The 2022-01-24 data release includes the addition of TOPMed Freeze 9 batch 1 & 2, CATHGEN and PETAL RED CORAL datasets. Please refer to the Data Release section below for more information as well as the[ Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.<br>
 
 ### **Significant new features**
 
@@ -13,15 +12,13 @@ The 2022-01-24 data release includes the addition of TOPMed Freeze 9 batch 1 & 2
 
 **GENESIS Model Explorer Interactive App on Seven Bridges:** The Model Explorer app was developed by our collaborators at the University of Washington and then handed off to the Seven Bridges team for hosting. Through the app, users can visualize and explore the results of the GENESIS Null Model workflow including phenotype variables, genotypes, and GENESIS model results without prior R programming knowledge. To access the app, please email [support@sevenbridges.com](mailto:support@sevenbridges.com).
 
-**Phenome-Wide analysis examples on BioData Catalyst studies using PIC-SURE:** New  example [notebooks](https://github.com/hms-dbmi/Access-to-Data-using-PIC-SURE-API/tree/master/NHLBI_BioData_Catalyst) are available on Terra (Python and R) and Seven Bridges (RStudio and Python) illustrating how to query data using the PIC-SURE API. It takes a simple PheWAS analysis as a use case. This PheWAS example analysis focuses on the TOPMed DCC Harmonized Variables. The harmonized variables are leveraged to provide an example PheWAS focused on total cholesterol in two studies: ARIC and FHS. This example shows how the PIC-SURE API is helpful in wrangling phenotypic data.\
-
+**Phenome-Wide analysis examples on BioData Catalyst studies using PIC-SURE:** New  example [notebooks](https://github.com/hms-dbmi/Access-to-Data-using-PIC-SURE-API/tree/master/NHLBI_BioData_Catalyst) are available on Terra (Python and R) and Seven Bridges (RStudio and Python) illustrating how to query data using the PIC-SURE API. It takes a simple PheWAS analysis as a use case. This PheWAS example analysis focuses on the TOPMed DCC Harmonized Variables. The harmonized variables are leveraged to provide an example PheWAS focused on total cholesterol in two studies: ARIC and FHS. This example shows how the PIC-SURE API is helpful in wrangling phenotypic data.<br>
 
 ### **New user support materials and documentation**
 
 **Guide for Consortia using Seven Bridges:** [Collaborating on the NHLBI BioData Catalyst: A Guide for Consortia](https://sb-biodatacatalyst.readme.io/docs/collaborating-on-the-nhlbi-biodata-catalyst-a-guide-for-consortia). This guide describes how consortia can use platform projects to selectively share, harmonize, and distribute data. This guide was inspired by conversations with the C4R consortia which revealed the type of guidance and information data that coordinating centers and consortia members need in order to get set up on BioData Catalyst as quickly as possible. In the outlined example, multiple study centers can bring their data to BioData Catalyst and the Data Coordinating Center (DCC) can then link that data to a centralized project to perform harmonization. The DCC can then distribute select harmonized datasets to analysis working groups that applied for permission to study the harmonized data. Future consortia can use the architecture illustrated in this guide to quickly onboard and begin coordination.
 
-**Guide for Workshops and Courses on Seven Bridges:** [Using NHLBI BioData Catalyst for Workshops and Courses](https://sb-biodatacatalyst.readme.io/docs/using-nhlbi-biodata-catalyst-for-workshops-and-courses). This guide was developed after Seven Bridges worked with the University of Washington Summer Institute in Statistical Genetics and the American Thoracic Society to develop a summer workshop and a course, respectively. The guide describes the UW Summer Institute and ATS course case studies and step-by-step considerations including a timetable for future educators that could use BioData Catalyst for their classrooms.\
-
+**Guide for Workshops and Courses on Seven Bridges:** [Using NHLBI BioData Catalyst for Workshops and Courses](https://sb-biodatacatalyst.readme.io/docs/using-nhlbi-biodata-catalyst-for-workshops-and-courses). This guide was developed after Seven Bridges worked with the University of Washington Summer Institute in Statistical Genetics and the American Thoracic Society to develop a summer workshop and a course, respectively. The guide describes the UW Summer Institute and ATS course case studies and step-by-step considerations including a timetable for future educators that could use BioData Catalyst for their classrooms.<br>
 
 ### **Data Releases**
 

@@ -71,8 +71,7 @@ _**BDC Powered by Gen3 (BDC-Gen3)**_**&#x20;Metadata Being Updated to bring data
 * Direct interaction with dbGaP’s FHIR API
 * Extract, Transform, Load (ETL) logic to parse the content from dbGaP’s FHIR and load into _BDC-Gen3’s_ Metadata API
 
-_BDC-Gen3’s_ Data Ingestion Pipeline will be updated to use the above tool to load FHIR metadata every new data release. In April 2023, loaded metadata will be available to all clients/users through _BDC-Gen3’s_ Metadata API, and loaded metadata will be viewable in _BDC-Gen3’s_ Discovery Page.\
-
+_BDC-Gen3’s_ Data Ingestion Pipeline will be updated to use the above tool to load FHIR metadata every new data release. In April 2023, loaded metadata will be available to all clients/users through _BDC-Gen3’s_ Metadata API, and loaded metadata will be viewable in _BDC-Gen3’s_ Discovery Page.<br>
 
 ### **New user support materials and documentation**
 

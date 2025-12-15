@@ -131,11 +131,11 @@ Congratulations! You have accessed and analyzed your first Gen3 data in Terra. N
 
 To understand what you will see when you export Gen3 data to a Terra workspace, it helps to first understand how the data is organized in Gen3. A diagram of the graph structure of the synthetic data in Gen3 is below on the left. Each box is a Gen3 data node and each line represents UUIDs connecting the metadata of the two nodes. Administrative nodes are purple, clinical data are in blue boxes, and genomic data are green boxes. When you export a project's data to a Terra workspace, each node in the graph gets imported as its own data table. Your data page will look like the figure on the right. The synthetic data in this tutorial is captured in 15 tables, corresponding to the 15 nodes in the graph structure.
 
-![](broken-reference)
+![](/broken/files/-M3mXbtZFy5UB1QapSoa)
 
 Each data table includes **all of the metadata fields** associated with the Gen3 node, in alphabetical order. The lab\_results table, for example, looks like this:
 
-![Screen shot of demographic table](broken-reference)
+![Screen shot of demographic table](/broken/files/-M3mWpo--qjCQz701Bys)
 
 You might see from this example several features specific to the Gen3 data structure that can be challenging to work with in Terra:
 

@@ -8,8 +8,7 @@ In this section, the reader will learn how to use the Terra and Dockstore platfo
 
 **Workflow:** Chains of connected tools to accomplish a full analysis. Tools are often connected in a specific way to enable maximum computational efficiency and are also constructed to accomplish a specific analysis goal. A workflow typically describes a full analysis (e.g. variant discovery, differential expression, or multiple variant association tests).
 
-**Workflow Description Language (WDL)**: A community-driven standard for describing data analysis pipelines and is easily portable across different computing environments. It is the language currently used to run batch-processes in Terra, which uses Cromwell as an executor. Like other descriptor languages, it is paired with Docker containers and can execute pipelines written in any language (bash, R, Python, etc.). Below, we have compiled community and BDC resources to help users get started learning WDL to create their own tools and workflows.\
-
+**Workflow Description Language (WDL)**: A community-driven standard for describing data analysis pipelines and is easily portable across different computing environments. It is the language currently used to run batch-processes in Terra, which uses Cromwell as an executor. Like other descriptor languages, it is paired with Docker containers and can execute pipelines written in any language (bash, R, Python, etc.). Below, we have compiled community and BDC resources to help users get started learning WDL to create their own tools and workflows.<br>
 
 ### WDL Toolkit: All the tools you need to write and run WDLs
 
@@ -52,8 +51,7 @@ Instructions:&#x20;
 
 In order to transition your workflow from local development to Terra, a typical approach is to make the workflow available in a GitHub repository and then build. Quay.io integrates with Dockstore and GitHub by automatically building upon GitHub pushes. The Quay.io build can then be registered on Dockstore. You can follow the steps for linking your Dockstore account to external services like Quay.io in this [document](https://docs.dockstore.org/en/develop/getting-started/register-on-dockstore.html).&#x20;
 
-&#x20;You can find more information about this process in the section _Version Control, Publishing, and Validation of Workflows_ below. \
-
+&#x20;You can find more information about this process in the section _Version Control, Publishing, and Validation of Workflows_ below. <br>
 
 ### Testing and using your workflow in the cloud with Terra
 
@@ -62,16 +60,13 @@ Now that you have a workflow ready for running in a cloud environment, you can p
 
 ![](https://lh6.googleusercontent.com/CIp0M8UXZnu0jmK3NpG1p2C5MygZePnbKu1wVHeSvg5bXAAMZNZy_85Xp7je2uBFAeHIJcPChDD2pcE8ydCGJbaqyMGr4zG7cj2aeikXEg0vHC5uTzvh-xh1QJotweMLpliW2l44)
 
-&#x20;                      **Figure 1**. Dockstore’s “Launch with BioData Catalyst” button. \
+&#x20;                      **Figure 1**. Dockstore’s “Launch with BioData Catalyst” button. <br>
 
-
-If you haven’t published your workflow to Dockstore, you can also [upload a workflow directly into Terra](https://support.terra.bio/hc/en-us/articles/360031366091-Create-edit-and-share-a-new-workflow) using the Broad Methods Repository. The Broad Methods Repository can easily be found in the “Add workflows” section of your Terra workspace. Similar to Dockstore, this repository hosts many WDL workflows that have been created by the Terra community. These workflows are only public once a user has signed into Terra. \
-
+If you haven’t published your workflow to Dockstore, you can also [upload a workflow directly into Terra](https://support.terra.bio/hc/en-us/articles/360031366091-Create-edit-and-share-a-new-workflow) using the Broad Methods Repository. The Broad Methods Repository can easily be found in the “Add workflows” section of your Terra workspace. Similar to Dockstore, this repository hosts many WDL workflows that have been created by the Terra community. These workflows are only public once a user has signed into Terra. <br>
 
 ![](https://lh5.googleusercontent.com/MFBy23Tn7HeHRk9lPJb8ruojxpyRndEYxu9XXGkiEGIYKJKKueqjaJNuuIprhB0FmH4w0g4QYpSBV_-l6uqjtT_OlL5VW9hWlwTUWtxFyURWmwNGfjynZUZVltjRESNEP3rwjfE3)
 
-**Figure 2**. In Terra workspaces, when you are in the "Workflows" tab you can “Find Additional Workflows” from Dockstore and the Broad Methods Repository.\
-
+**Figure 2**. In Terra workspaces, when you are in the "Workflows" tab you can “Find Additional Workflows” from Dockstore and the Broad Methods Repository.<br>
 
 Once your workflow is in Terra, you may want to check out some of the learning resources below for configuring, troubleshooting, and optimizing your workflow. There are likely additional configuring and troubleshooting steps needed for getting your workflow up and running on larger datasets hosted in the cloud.
 
@@ -90,4 +85,4 @@ Terra also has several tips for reducing costs in order to promote the efficienc
 * [Enabling call-caching & deleting intermediate files](https://support.terra.bio/hc/en-us/articles/360039681632-Saving-storage-costs-by-deleting-Intermediate-files)
 * [Experimental Jupyter Notebook for estimating costs of workflows run in Terra](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/Workflow%20Cost%20Estimator.ipynb)
 
-Once your workflow is working as expected, we ask that you publish your work to share with the research community. You can find resources for how to publish your work on GitHub and Dockstore in the section below titled _Version Control, Publishing, and Validation of Workflows_. \
+Once your workflow is working as expected, we ask that you publish your work to share with the research community. You can find resources for how to publish your work on GitHub and Dockstore in the section below titled _Version Control, Publishing, and Validation of Workflows_. <br>

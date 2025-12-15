@@ -82,8 +82,7 @@ The 2021-07-09 data release includes the addition of CRAMs and unharmonized clin
 * Introduction to PIC-SURE Authorized Access
 * Introduction to PIC-SURE Authorized Access: Data Export
 
-**Published a** [**blog post**](https://terra.bio/from-infrastructure-projects-to-connected-communities/) on the role of a secure cloud ecosystem for supporting infrastructure projects and creating connected communities, highlighting BioData Catalyst as one of several NIH-commissioned infrastructure development projects that involve not just putting data on the cloud but also building the additional layers of services that are necessary to deliver on the extraordinary promise of this new model for data sharing and analysis.\
-
+**Published a** [**blog post**](https://terra.bio/from-infrastructure-projects-to-connected-communities/) on the role of a secure cloud ecosystem for supporting infrastructure projects and creating connected communities, highlighting BioData Catalyst as one of several NIH-commissioned infrastructure development projects that involve not just putting data on the cloud but also building the additional layers of services that are necessary to deliver on the extraordinary promise of this new model for data sharing and analysis.<br>
 
 ### **Data Releases**
 

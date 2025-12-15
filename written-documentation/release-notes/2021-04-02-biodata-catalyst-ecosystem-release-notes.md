@@ -6,8 +6,7 @@ The 2021-04-02 release marks the fifth release for the NHLBI BioData Catalyst ec
 
 The 2021-04-02 data release includes updates of CRAMs and unharmonized clinical files for 6 TOPMed studies previously hosted on BioData Catalyst. For each study and consent group, VCF files are available on a per chromosome basis and in an un-tarred format.
 
-Please refer to the Data Release section below for more information as well as the[ Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.\
-
+Please refer to the Data Release section below for more information as well as the[ Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.<br>
 
 ### **Significant new features**
 
@@ -22,8 +21,7 @@ Import files from Kids First Data Resource Center: Users can now access datasets
 
 PIC-SURE Data Access Dashboard: Users on PIC-SURE can now see a list of studies with data available in PIC-SURE. The Data Access Dashboard will show the study name, identifier, and the number of variables/samples present. Additionally the user can see if they have access to the study or click to a link where they can learn more about the study and request access to studies they are not yet authorized to use.
 
-Query annotations for all SNVs and dbSNP INDELS in the Annotation Explorer: Users on Seven Bridges can now use the Annotation Explorer to interactively aggregate and filter all SNVs (over 8 billion variants) and publicly available INDELs from dbSNP using \~700 annotations. Variant grouping files can be created from the results and exported to a workspace for use in rare variant association testing. This database is available to all authenticated users of BioData Catalyst. [See here](https://sb-biodatacatalyst.readme.io/docs/topmed-annotation-explorer) for more information about how to use the Annotation Explorer.\
-
+Query annotations for all SNVs and dbSNP INDELS in the Annotation Explorer: Users on Seven Bridges can now use the Annotation Explorer to interactively aggregate and filter all SNVs (over 8 billion variants) and publicly available INDELs from dbSNP using \~700 annotations. Variant grouping files can be created from the results and exported to a workspace for use in rare variant association testing. This database is available to all authenticated users of BioData Catalyst. [See here](https://sb-biodatacatalyst.readme.io/docs/topmed-annotation-explorer) for more information about how to use the Annotation Explorer.<br>
 
 ### **New user support materials and documentation**
 
@@ -49,8 +47,7 @@ Uploaded a [new video tutorial](https://www.youtube.com/watch?v=3CVXNygHliM\&t=1
 
 Published a [blog post](https://terra.bio/task-level-checkpointing/) introducing a new feature for task-level checkpointing in workflows. This makes it possible to save intermediate outputs for a task and resume work from that point if the task gets interrupted. Full documentation of this checkpoint feature can be found [here](https://cromwell.readthedocs.io/en/develop/optimizations/CheckpointFiles/).
 
-Uploaded a [video on Broad’s BioIT 2020 Talk](https://www.youtube.com/watch?v=FRGc0vAWCao) proposing a cross-domain, common data model built specifically to facilitate search and reuse.\
-
+Uploaded a [video on Broad’s BioIT 2020 Talk](https://www.youtube.com/watch?v=FRGc0vAWCao) proposing a cross-domain, common data model built specifically to facilitate search and reuse.<br>
 
 ### **Data Releases**
 

@@ -22,8 +22,7 @@ The following features in this release support primarily TOPMed researchers rang
 * **Documentation:** Access documentation for each of the platforms.
 * **Track cloud costs:** Track cloud storage and compute costs on Seven Bridges and Terra.
 
-**Data Releases**\
-
+**Data Releases**<br>
 
 | **Hosted TOPMed study accessions with genomic data from Freeze 5b**                        |                 |                |
 | ------------------------------------------------------------------------------------------ | --------------- | -------------- |

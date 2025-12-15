@@ -4,18 +4,15 @@ Terra provides powerful support for performing Genome-Wide Association Studies (
 
 #### Kinship Matrices
 
-A Jupyter Notebook in both of the following workspaces uses Hail to generate Genetic Related Matrices for input into the GWAS workflows. Users with access to kinship matrices from the TOPMed consortium may wish to exclude these steps and instead import kinship files using the [bring your own data instructions](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/using-your-own-data-with-terra).\
-
+A Jupyter Notebook in both of the following workspaces uses Hail to generate Genetic Related Matrices for input into the GWAS workflows. Users with access to kinship matrices from the TOPMed consortium may wish to exclude these steps and instead import kinship files using the [bring your own data instructions](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/using-your-own-data-with-terra).<br>
 
 #### BioData Catalyst GWAS tutorial​ workspace
 
-The [BioData Catalyst GWAS tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial) workspace was created to walk users through a GWAS with training data that includes synthetic phenotypic data (modeled after traits available in TOPMed) paired with 1000 Genomes open-access data. This tutorial aims to familiarize users with the Gen3 data model so that they can become empowered to use this data model with any [existing tutorials available in the Terra library’s showcase section](https://terra.biodatacatalyst.nhlbi.nih.gov/#library/showcase).\
-
+The [BioData Catalyst GWAS tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial) workspace was created to walk users through a GWAS with training data that includes synthetic phenotypic data (modeled after traits available in TOPMed) paired with 1000 Genomes open-access data. This tutorial aims to familiarize users with the Gen3 data model so that they can become empowered to use this data model with any [existing tutorials available in the Terra library’s showcase section](https://terra.biodatacatalyst.nhlbi.nih.gov/#library/showcase).<br>
 
 #### BioData Catalyst GWAS blood pressure trait ​template workspace
 
-[This template is an example workspace](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%20blood%20pressure%20trait) that asks researchers to export TOPMed projects (for which they have access) into an example template for conducting a common variant, mixed-models GWAS of a blood pressure trait. Our goal was to include settings and suggestions to help users interact with data exactly as they receive it through BioData Catalyst.  Accommodating other datasets may require modifying many parts of this notebook. Inherently, the notebook is an interactive analysis where decisions are made as you go. It is not recommended that the notebook be applied to another dataset without careful thought.\
-
+[This template is an example workspace](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%20blood%20pressure%20trait) that asks researchers to export TOPMed projects (for which they have access) into an example template for conducting a common variant, mixed-models GWAS of a blood pressure trait. Our goal was to include settings and suggestions to help users interact with data exactly as they receive it through BioData Catalyst.  Accommodating other datasets may require modifying many parts of this notebook. Inherently, the notebook is an interactive analysis where decisions are made as you go. It is not recommended that the notebook be applied to another dataset without careful thought.<br>
 
 **Cost Examples**\
 \

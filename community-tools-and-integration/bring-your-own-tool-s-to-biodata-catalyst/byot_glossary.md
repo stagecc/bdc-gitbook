@@ -23,4 +23,4 @@ Each platform within BDC may have slight variations on these definitions. You wi
 * **Wrapping:** The process of describing a command-line tool or custom script in Common Workflow Language (CWL) so that it can be easily run in multiple cloud environments, dynamically scale compute requirements based on inputs, and be inserted into distinct analysis pipelines.
 * **Virtual Machine (VM):** An isolated computing environment with its own operating system.&#x20;
 
-**For other terms, you can reference the** [**BioData Catalyst glossary**](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/biodata-catalyst-glossary/bdc_glossary)**.** \
+**For other terms, you can reference the** [**BioData Catalyst glossary**](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/biodata-catalyst-glossary/bdc_glossary)**.** <br>

@@ -14,8 +14,7 @@ _**BDC-Gen3**_**&#x20;Metadata Being Updated to bring data from dbGaP FHIR datab
 
 **New and Improved Genomic Filtering on&#x20;**_**BDC Powered by PIC-SURE (BDC-PIC-SURE)**_**:** The Genomic Filtering modal on _BDC-PIC-SURE_ has been updated to more accurately represent the relatedness between the various filtering fields. This includes the revamped “Variant consequence calculated” field, which includes different levels of severity and their associated consequences. Additionally, the “Selected Genomic Filters” section now more explicitly summarizes the filter criteria being applied.
 
-**Edit Queries Built in&#x20;**_**BDC-PIC-SURE**_**&#x20;Using the API:** Researchers that created a cohort on _BDC-PIC-SURE’s_ user interface can now edit that query’s parameters using Python or R code via the _BDC-PIC-SURE API_. This provides more flexibility for researchers wanting to refine or change their cohort after export and eliminates the need to return to the user interface.\
-
+**Edit Queries Built in&#x20;**_**BDC-PIC-SURE**_**&#x20;Using the API:** Researchers that created a cohort on _BDC-PIC-SURE’s_ user interface can now edit that query’s parameters using Python or R code via the _BDC-PIC-SURE API_. This provides more flexibility for researchers wanting to refine or change their cohort after export and eliminates the need to return to the user interface.<br>
 
 ### **New user support materials and documentation**
 

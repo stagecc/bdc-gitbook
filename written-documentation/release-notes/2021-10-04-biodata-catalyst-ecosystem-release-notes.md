@@ -4,8 +4,7 @@
 
 The 2021-10-04 release marks the seventh release for the NHLBI BioData Catalyst ecosystem. This release includes several new features (e.g., project cost reporting on Terra and archiving files on AWS) along with documentation and tutorials (e.g., estimating and managing cloud costs) to help new users get started on the system. This release also includes enhanced support for semantic search and R Shiny apps. Please find more detail on the new features and user support materials in the sections below.
 
-The 2021-10-04 data release includes the addition of the final BioLINCC training dataset plus another BioLINCC study, BabyHug. The TOPMed Combined Exchange Area buckets were updated with more datasets from multiple new freezes. The last dataset ingested was PCGC’s CMG. Please refer to the Data Release section below for more information as well as the [Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.\
-
+The 2021-10-04 data release includes the addition of the final BioLINCC training dataset plus another BioLINCC study, BabyHug. The TOPMed Combined Exchange Area buckets were updated with more datasets from multiple new freezes. The last dataset ingested was PCGC’s CMG. Please refer to the Data Release section below for more information as well as the [Data page](https://biodatacatalyst.nhlbi.nih.gov/resources/data) on the BioData Catalyst website.<br>
 
 ### **Significant new features**
 
@@ -21,8 +20,7 @@ The 2021-10-04 data release includes the addition of the final BioLINCC training
 
 **Speed up machine learning work with GPUs on Terra:** Terra’s Interactive Analysis team has released an upgrade that enables [adding Graphical Processor Units (GPUs) to Notebook cloud environments in Terra](https://terra.bio/speed-up-your-machine-learning-work-with-gpus/). Terra already offered the [ability to use GPUs in workflows](https://support.terra.bio/hc/en-us/articles/360055066731-Why-and-how-to-use-GPUs-when-running-a-workflow), and are now responding to user requests to run GPU-enabled computations interactively with GPU support for Jupyter Notebooks.
 
-**Speed up workflows and save costs using N2 instances sporting Intel’s 2nd Generation Xeon CPUs on Terra:** Terra users will now have the option to use new-generation N2 instances, which have demonstrated faster performance and reduced cost. Read more about these updates and how to request N2 instances for workflows [here](https://terra.bio/speed-up-your-workflows-with-n2-instances-sporting-intels-2nd-generation-xeon-cpus/).\
-
+**Speed up workflows and save costs using N2 instances sporting Intel’s 2nd Generation Xeon CPUs on Terra:** Terra users will now have the option to use new-generation N2 instances, which have demonstrated faster performance and reduced cost. Read more about these updates and how to request N2 instances for workflows [here](https://terra.bio/speed-up-your-workflows-with-n2-instances-sporting-intels-2nd-generation-xeon-cpus/).<br>
 
 ### **New user support materials and documentation**
 
@@ -55,8 +53,7 @@ The 2021-10-04 data release includes the addition of the final BioLINCC training
 
 **Ready to publish and share the tool or workflow you developed with the research community?** Dockstore users can link their accounts to their ORCID and Zenodo accounts, [mint DOIs for their workflows hosted on Dockstore](https://docs.dockstore.org/en/stable/advanced-topics/snapshot-and-doi.html), and now can [export their workflows directly to their ORCID profile](https://docs.dockstore.org/en/stable/end-user-topics/ORCID.html#export-your-dockstore-workflow-to-your-orcid-account).
 
-**New video tutorials** demonstrate exporting data from PIC-SURE to [Terra](https://tinyurl.com/export-data-terra) and [<mark style="color:blue;">Seven Bridges</mark> u](https://www.youtube.com/watch?v=nrHYcZw_rmo)sing BioLINCC/Sickle Cell related data.\
-
+**New video tutorials** demonstrate exporting data from PIC-SURE to [Terra](https://tinyurl.com/export-data-terra) and [<mark style="color:blue;">Seven Bridges</mark> u](https://www.youtube.com/watch?v=nrHYcZw_rmo)sing BioLINCC/Sickle Cell related data.<br>
 
 ### **Data Releases**
 

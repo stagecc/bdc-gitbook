@@ -90,8 +90,7 @@ The table below highlights which studies were included in the 2025-04-15 data re
 | Proteomic biomarkers of progressive fibrosing interstitial lung disease: a multicentre cohort analysis (PF-ILD Proteomics)                                                       | phs003954.v1.p1    | BioLINCC-BL\_PF\_ILD             | <p>Yes</p><p><br></p>   | <p>No</p><p><br></p>  |
 | BLUE CORAL: Biology and Longitudinal Epidemiology of PETAL COVID-19 Observational Study Biology and Longitudinal Epidemiology of PETAL COVID-19 Observational Study (BLUE CORAL) | phs003419.v2.p1    | COVID19-BLUE\_CORAL              | <p>No</p><p><br></p>    | <p>Yes</p><p><br></p> |
 
-\
-
+<br>
 
 For detailed platform release notes please consult the following resources:
 

@@ -2,8 +2,7 @@
 
 Docker technology has revolutionized reproducibility by creating a fast, portable, easily shareable method to generate the exact compute environment, with all dependencies and configurations, that were used to run a tool or workflow.&#x20;
 
-Below, we provide resources for finding public Docker images or creating your own image to use with your analysis. Docker is commonly used by software engineers, and learning material on the internet may be overly complex for the researcher use case. We compiled learning materials from each platform within BDC to help you get started using Docker specifically for bioinformatics pipelines. \
-
+Below, we provide resources for finding public Docker images or creating your own image to use with your analysis. Docker is commonly used by software engineers, and learning material on the internet may be overly complex for the researcher use case. We compiled learning materials from each platform within BDC to help you get started using Docker specifically for bioinformatics pipelines. <br>
 
 ### Available Docker images
 
