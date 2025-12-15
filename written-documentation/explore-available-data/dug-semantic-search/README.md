@@ -12,7 +12,6 @@ Dug Semantic Search is a tool that allows users to deep dive into BDC studies an
 
 This tool applies semantic web and knowledge graph techniques to improve BDC research data Findability, Access, Interoperability, and Reusability (FAIR). Through this process, semantic search helps users identify novel relations, build unique research questions, and identify potential collaborations.
 
-\
+<br>
 
-
-\
+<br>

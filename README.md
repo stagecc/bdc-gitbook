@@ -10,7 +10,7 @@ Click here to access the [NHLBI BioData Catalyst<sup>®</sup> (BDC)](https://bio
 
 ## Welcome to NHLBI BioData Catalyst<sup>®</sup> (BDC)
 
-Welcome to the BDC ecosystem and thank you for joining our community of practice. The ecosystem offers secure workspaces to support your data analysis in addition to a number of bioinformatics tools for analysis. The ecosystem currently hosts datasets from the Transomics for Precision Medicine (TOPMed) program. There is a lot of information to understand and many resources (documentation, learning guides, videos, etc.) available, so we developed this overview to help you get started. If you have additional questions, please use the links at the very end of this document, under the **"Questions"** section, to contact us.
+Welcome to the BDC ecosystem and thank you for joining our community of practice. The ecosystem offers secure workspaces to support your data analysis in addition to a number of bioinformatics tools for analysis. There is a lot of information to understand and many resources (documentation, learning guides, videos, etc.) available, so we developed this overview to help you get started. If you have additional questions, use the links at the very end of this document, under the **"Questions"** section, to contact us.
 
 ## About BDC and Our Community
 
@@ -26,39 +26,33 @@ By increasing access to the NHLBI’s datasets and innovative data analysis capa
 
 **Who is developing BDC?**
 
-The ecosystem is funded by the National Heart, Lung, and Blood Institute (NHLBI). Researchers and other professionals receive funding from the NHLBI to work on the development of the ecosystem, together often referred to as “The BDC Consortium” or “The Consortium” for short. You can refer to [a list of partners and platforms powering the ecosystem](https://biodatacatalyst.nhlbi.nih.gov/about/overview/) on the Overview page of the BDC website and a [list of the principal investigators](community-conduct/who-we-are.md) is available in our documentation.
+The ecosystem is funded by the National Heart, Lung, and Blood Institute (NHLBI). Researchers and other professionals receive funding from the NHLBI to work on the development of the ecosystem, together often referred to as “The BDC Consortium” . You can refer to [a list of partners and platforms powering the ecosystem](https://biodatacatalyst.nhlbi.nih.gov/about/overview/) on the Overview page of the BDC website and a [list of the principal investigators](community-conduct/who-we-are.md) is available in our documentation.
 
 **Find out the meanings of our terms and acronyms.**
 
 Like many professional communities, BDC has adopted terms to help us communicate quickly and more efficiently, but that can be a challenge for newcomers. To help, we created a BDC [glossary](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/biodata-catalyst-glossary/bdc_glossary) of terms and acronyms. If ever there is a time when an ecosystem term or acronym is unfamiliar and isn’t in the glossary, [contact us](https://biodatacatalyst.nhlbi.nih.gov/contact) so we can give you the information and add it to the glossary.
 
-## The BDC Ecosystem and Services
+## The BDC Ecosystem&#x20;
 
-**Learn about the platforms and services available in the ecosystem.**
+**Learn about the platforms available in the ecosystem.**
 
-The BDC ecosystem features the following platforms and services.
+The BDC ecosystem features the following platforms.
 
 **Explore Available Data**
 
-* _BioData Catalyst Powered by Gen3_ - Hosts genomic and phenotypic data and enables faceted search for authorized users to create and export cohorts to workspaces in a scalable, reproducible, and secure manner.
-* _BioData Catalyst Powered by PIC-SURE_ - Enables access to all clinical data, feasibility queries to be conducted, and allows cohorts to be built in real-time and results to be exported via the API for analysis.
+* _BDC Powered by Gen3_ (_BDC-Gen3_) - Hosts genomic and phenotypic data and enables faceted search for authorized users to create and export cohorts to workspaces in a scalable, reproducible, and secure manner.
+* _BDC Powered by PIC-SURE_ (_BDC-PIC-SURE_) - Enables access to all clinical data, feasibility queries to be conducted, and allows cohorts to be built in real-time and results to be exported via the API for analysis.
 
 **Analyze Data in Cloud-based Shared Workspaces**
 
-* _BioData Catalyst Powered by Seven Bridges_ - Collaborative workspaces where researchers can find and analyze hosted datasets (e.g. TOPMed) as well as their own data by using hundreds of optimized analysis tools and workflows in CWL, as well as JupyterLab and RStudio for interactive analysis.
-* _BioData Catalyst Powered by Terra_ - Secure collaborative place to organize data, run and monitor workflow (e.g. WDL) analysis pipelines, and perform interactive analysis using applications such as Jupyter Notebooks and the Hail GWAS tool.
+* _BDC Powered by Seven Bridges_ (_BDC-Seven Bridges_) - Collaborative workspaces where researchers can find and analyze hosted datasets as well as their own data by using hundreds of optimized analysis tools and workflows in CWL, as well as JupyterLab and RStudio for interactive analysis.
+* _BDC Powered by Terra_ (_BDC-Terra_) - Secure collaborative place to organize data, run and monitor workflow analysis pipelines in WDL, and perform interactive analysis using applications such as Jupyter Notebooks and the Hail GWAS tool.
 
-**Use Community Tools on Controlled-access Datasets**
+[Click here to view the differences between BDC’s standard workspaces (_BDC-Seven Bridges_) and those provided by _BDC-Terra_.](https://biodatacatalyst.nhlbi.nih.gov/use-bdc/analyze-data/bdc-workspaces/)
 
-* _Dockstore_ - Catalog of Docker-based workflows (from individuals, labs, organizations) that export to Terra or Seven Bridges.
-
-The NHLBI BioData Catalyst website provides further details about the [platforms and services](https://biodatacatalyst.nhlbi.nih.gov/resources/services) available in the ecosystem. We encourage you to create accounts on all the platforms as you get to know BioData Catalyst.
+The BDC website provides details about the [platforms and services](https://biodatacatalyst.nhlbi.nih.gov/resources/services) available in the ecosystem. We encourage you to create accounts on all the platforms as you get to know BioData Catalyst.
 
 ## Ecosystem Access, Hosted Data, and System Services
-
-**How does data access work?**
-
-The BioData Catalyst ecosystem manages access to the hosted controlled data using data access approvals from the NIH Database of Genotypes and Phenotypes ([dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=login)). _**Therefore, users who want to access a hosted controlled study on the ecosystem must be approved for access to that study in dbGaP.**_
 
 **How do I login?**
 
@@ -66,12 +60,9 @@ Users log into BioData Catalyst platforms with their eRA Commons credentials (se
 
 While all of the platforms within BioData Catalyst use eRA Commons credentials and iTrust performs authorization and authentication, respectively, there are some slight differences between the platforms when getting set up:
 
-* _BioData Catalyst Powered by Gen3_ - Users do not set up usernames on Gen3. Upon the first time logging in, select “Login from NIH”, then enter eRA commons credentials at the prompt. This ‘User Identity’ is used to track the user on the system.\
-
-* _BioData Catalyst Powered by PIC-SURE_ - Similar to Gen3, user identities are used - researchers log into the system by selecting “Log in with eRA Commons.”\
-
-* _BioData Catalyst Powered by Seven Bridges_ - Users set up platform accounts. The first time on the system, users select to “Create an account” and then proceed with entering their eRA Commons credentials. The user is then prompted to fill out a registration form with their name, email, and preferred username. Users are also asked to acknowledge that they have read the Privacy Act notice and then they can proceed to the platform.\
-
+* _BioData Catalyst Powered by Gen3_ - Users do not set up usernames on Gen3. Upon the first time logging in, select “Login from NIH”, then enter eRA commons credentials at the prompt. This ‘User Identity’ is used to track the user on the system.<br>
+* _BioData Catalyst Powered by PIC-SURE_ - Similar to Gen3, user identities are used - researchers log into the system by selecting “Log in with eRA Commons.”<br>
+* _BioData Catalyst Powered by Seven Bridges_ - Users set up platform accounts. The first time on the system, users select to “Create an account” and then proceed with entering their eRA Commons credentials. The user is then prompted to fill out a registration form with their name, email, and preferred username. Users are also asked to acknowledge that they have read the Privacy Act notice and then they can proceed to the platform.<br>
 * _BioData Catalyst Powered by Terra_ - Users initially log in using Google credentials and are asked to agree to the Terms of Service and Privacy Act notice. User activity is tracked via the Google credentials, but users can link their eRA Commons credentials to the account to get access to hosted datasets.
 
 Details about how data access works on the NHLBI BioData Catalyst ecosystem are [on the website](https://biodatacatalyst.nhlbi.nih.gov/resources/data/).
@@ -103,14 +94,6 @@ We encourage users to publish their workflows so they can be used by other resea
 **Costs and cloud credits.**
 
 BioData Catalyst hosts a number of datasets available for analysis to users with appropriate data access approvals. Users are not charged for the storage of these hosted datasets; however, if hosted data is used in analyses users incur costs for computation and storage of derived results. Cloud credits are available on the system, and you can [learn more here](https://biodatacatalyst.nhlbi.nih.gov/resources/cloud-credits).
-
-## BioData Catalyst Publications
-
-**Let us know about your publications and see how you can cite us.**
-
-If you are writing a manuscript about research you conducted using NHLBI BioData Catalyst, please use [the citation available here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/biodata-catalyst-glossary/citation-and-acknowledgement).
-
-Immediately after learning your manuscript has been accepted, please email [BDCatalystOutreach@nih.gov](mailto:BDCatalystOutreach@nih.gov) to let us know. Please include in your email the manuscript title, the name of the publication that accepted your manuscript, and information about pre-publication posting (if it will take place), along with your name and contact information.
 
 ## Questions?
 

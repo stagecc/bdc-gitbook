@@ -1,8 +1,12 @@
 ---
-description: How to cite and acknowledge NHLBI BioData Catalyst® (BDC)
+description: Let us know about your publications and how you can cite us.
 ---
 
 # Citation and Acknowledgement
+
+If you are writing a manuscript about research you conducted using BDC, use the citation available below.
+
+After learning your manuscript has been accepted, let us know by filling out our Contact form and selecting **Published Research** under the "Select the Type of Assistance Needed" dropdown.
 
 **For citation of BDC:**
 

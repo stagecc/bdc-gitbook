@@ -7,15 +7,15 @@ description: >-
 
 # Understanding Access
 
-## eRA Commons Account
+## About BDC Access: eRA Commons Account
 
 Users log into BDC platforms with their eRA Commons credentials. For more information, see[ Ecosystem Access, Hosted Data, and System Services](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/#ecosystem-access-hosted-data-and-system-services).
 
 Users create an eRA Commons Account through their institution's Office of Sponsored Research or equivalent. For more information, refer to[ Understanding eRA Commons Accounts](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm).
 
-## dbGaP
+## About Data Access: dbGaP
 
-Users who want to access a hosted controlled study on the BDC ecosystem must be approved for access to that study in the NIH Database of Genotypes and Phenotypes ([dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=login)). For more information, see[ Ecosystem Access, Hosted Data, and System Services](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/#ecosystem-access-hosted-data-and-system-services) and[ BioData Catalyst FAQs](https://bdcatalyst.freshdesk.com/support/search/solutions?term=dbgap). Note that obtaining these approvals can be a time-intensive process; failure to obtain them in a timely manner may delay data access.
+Users who want to access a hosted controlled study on the BDC ecosystem must be approved for access to that study in the NIH Database of Genotypes and Phenotypes ([dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=login)). _**Therefore, users who want to access a hosted controlled study on the ecosystem must be approved for access to that study in dbGaP.**_ For more information, see the [BioData Catalyst FAQs](https://bdcatalyst.freshdesk.com/support/search/solutions?term=dbgap). Note that obtaining these approvals can be a time-intensive process; failure to obtain them in a timely manner may delay data access.
 
 Users have two options for obtaining dbGaP approval depending on whether they already are affiliated with a PI who has dbGaP access to the relevant data:
 

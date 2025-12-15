@@ -1,8 +1,14 @@
+---
+description: >-
+  Users who want to access a hosted controlled study on the ecosystem must be
+  approved for access to that study in dbGaP
+---
+
 # Submitting a dbGaP Data Access Request
 
 ## Requirements
 
-* An NIH eRA Commons ID (or appropriate NIH Login) is required for submitting a Data Access Request (DAR). If you do not have an eRA Commons account, you must request one through your institution’s Office of Sponsored Research or equivalent. For more information, refer to [Understanding eRA Commons Accounts](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm).
+* An NIH eRA Commons ID (or appropriate NIH Login) is required for submitting a Data Access Request (DAR). If you do not have an eRA Commons account, you must request one through your institution’s Office of Sponsored Research or equivalent. For more information, refer to [Understanding eRA Commons Accounts](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm) on the eRA website.
 * To submit a DAR, users must have PI status through their institution. Non-PI users must have a PI they work with that can submit a DAR and add them as a downloader.
 
 ## Data Access Request Process
@@ -66,4 +72,4 @@ Amazon Web Services (AWS), Commercial Amazon Web services (AWS) is a public clou
 
 Google Cloud Platform is a public cloud platform that provides solutions and services such as virtual machines, database instances, storage, and more. We will use the Google Compute, a service that provides resizable compute capacity, to allocate Machine Types in which we will develop the methods and infrastructure necessary to build the NHLBI BioData Catalyst. Google Cloud offers several storage options that work in conjunction with Compute Engine: Google Cloud Storage, and Google Compute Engine Persistent Disks. We expect to use each of these as the provide different capabilities including persistent storage and direct and networked storage for attaching to running machine instances. We will use networking technologies based on Google’s Andromeda architecture, which can create networking elements at any level with software. This software-defined networking allows Cloud Platform's services to implement networking features that fit their exact needs, such as secure firewalls for virtual machines in Google Compute Engine. We will use Google Cloud Identity & Access Management to control user access to these compute resources.
 
-\
+<br>
