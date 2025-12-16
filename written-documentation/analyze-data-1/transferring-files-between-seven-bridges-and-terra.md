@@ -1,19 +1,18 @@
 ---
-description: >-
-  Instructions on transferring files between BDC Powered by Seven Bridges
-  (BDC-Seven Bridges) and BDC Powered by Terra (BDC-Terra)
+description: Instructions on transferring files between BDC-Seven Bridges and BDC-Terra
 ---
 
 # Transferring Files Between Seven Bridges and Terra
 
 ## **Introduction**
 
-This tutorial guides users through the process of transferring files between the two workspace environments of NHLBI BioData CatalystⓇ (BDC): _**BDC-Seven Bridges**_ and _**BDC-Terra**_.&#x20;
+This tutorial guides users through the process of transferring files between the two workspace environments of BDC: _**BDC-Seven Bridges**_ and _**BDC-Terra**_.&#x20;
 
-Most researchers select one of the workspaces as their primary analysis environment and their labmates and collaborators typically work with them on the same workspace environment. However, there are cases where some collaborators work on Seven Bridges and others work on Terra. In this case, researchers need to share data files between the two workspaces to facilitate collaboration. When researchers run analyses on Seven Bridges, the results, or derived data, is only available on Seven Bridges. Likewise, when researchers run analyses on Terra, the results are only available on Terra. This tutorial provides step-by-step guidance on how to share derived data between the workspace environments. These instructions can also be used to share private data that has been uploaded to Seven Bridges or Terra.&#x20;
+Most researchers select one of the BDC workspaces as their primary analysis environment and their labmates and collaborators typically work with them on the same workspace environment. However, there are cases where some collaborators work on _BDC-Seven Bridges_ and others work on _BDC-Terra_. In this case, researchers need to share data files between the two workspaces to facilitate collaboration. When researchers run analyses on Seven Bridges, the results, or derived data, is only available on Seven Bridges. Likewise, when researchers run analyses on Terra, the results are only available on Terra. This tutorial provides step-by-step guidance on how to share derived data between the workspace environments. These instructions can also be used to share private data that has been uploaded to Seven Bridges or Terra.&#x20;
 
-Both open access data and controlled access data can be shared across workspace environments. Importantly, if a researcher intends to share controlled access data, they must ensure that all recipients have the necessary dbGaP permissions for those files. In some cases, this may mean the researchers must be listed as collaborators on their respective dbGaP applications. \
-These instructions are intended for sharing files under 1 terabyte (TB) in size.  If you want to share data larger than 1 TB, contact the [BioData Catalyst Help Desk](https://biodatacatalyst.nhlbi.nih.gov/contact) to discuss your use case.
+Both open access data and controlled access data can be shared across workspace environments. Importantly, if a researcher intends to share controlled access data, they must ensure that all recipients have the necessary dbGaP permissions for those files. In some cases, this may mean the researchers must be listed as collaborators on their respective dbGaP applications.
+
+These instructions are intended for sharing files under 1 terabyte (TB) in size. If you want to share data larger than 1 TB, contact the [BDC Help Desk](https://biodatacatalyst.nhlbi.nih.gov/contact) to discuss your use case.
 
 {% hint style="warning" %}
 It is not recommended to transfer large amounts of data between cloud providers or regions; for example, AWS --> Google costs approximately $100/TB.
@@ -23,19 +22,28 @@ It is not recommended to transfer large amounts of data between cloud providers 
 
 ### Platform Accounts
 
-The first consideration is platform accounts. Moving data between Seven Bridges and Terra is currently a manual process and requires that one of the researchers involved in sharing has an account on both platforms. It is recommended that the recipient of the shared data is the person to have accounts on both Seven Bridges and Terra.
+Moving data between Seven Bridges and Terra is currently a manual process and requires that one of the researchers involved in sharing has an account on both platforms. It is recommended that the recipient of the shared data is the person to have accounts on both Seven Bridges and Terra.
 
-Let’s consider an example case: **Sebastian** who is working on **Seven Bridges** and **Teresa** who is working on **Terra**. If Sebastian wants to share data with Teresa so that she can use the data on Terra, Teresa first needs to set up an account on Seven Bridges. Now Teresa has an account on Terra and an account on Seven Bridges. Sebastian will share the data with Teresa on Seven Bridges by adding her as a member of the project with the data he wants to share, with Copy permissions. For information on permissions, refer to the Seven Bridges [Set permissions](https://sb-biodatacatalyst.readme.io/docs/set-permissions) documentation. Once Teresa is added as a member of the project, she can move the data from the Seven Bridges project to a workspace on the Terra platform, following the instructions in the section titled Moving Data From Seven Bridges to Terra.
+* To create a Terra account, refer to the [Terra documentation](https://support.terra.bio/hc/en-us/articles/360028235911).
+* To create a Seven Bridges account, refer to the [Seven Bridges documentation](https://sb-biodatacatalyst.readme.io/docs/sign-up-biodata-catalyst-powered-by-seven-bridges). If you are new to Seven Bridges, you may find this [Getting Started Guide](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/written-documentation/getting-started/analyze-data-1/seven-bridges/getting-started-guide) helpful.&#x20;
 
-If **Teresa (Terra)** wants to share data with **Sebastian (Seven Bridges)** so that he can use the data on Seven Bridges, Sebastian first needs to create an account on Terra. Now Sebastian has an account on Seven Bridges and an account on Terra. Teresa can share the data with Sebastian on Terra by sharing the workspace with the data she wants to share with Sebastian. For information on sharing workspaces, refer to the Terra [How to share a workspace](https://support.terra.bio/hc/en-us/articles/360034540171) documentation.&#x20;
+Let’s consider an example case:&#x20;
 
-To create a Terra account, refer to the [Terra documentation](https://support.terra.bio/hc/en-us/articles/360028235911).
+* **Sebastian** is working on **Seven Bridges** and **Teresa** is working on **Terra**.&#x20;
+* If Sebastian wants to share data with Teresa so that she can use the data on Terra, Teresa first needs to set up an account on Seven Bridges.&#x20;
+* Now, Teresa has an account on Terra and an account on Seven Bridges.&#x20;
+* Sebastian will share the data with Teresa on Seven Bridges by adding her as a member of the project with the data he wants to share, with Copy permissions. For information on permissions, refer to the Seven Bridges [Set permissions](https://sb-biodatacatalyst.readme.io/docs/set-permissions) documentation.&#x20;
+* Once Teresa is added as a member of the project, she can move the data from the Seven Bridges project to a workspace on the Terra platform, following the instructions in the section titled "Moving Data From Seven Bridges to Terra" later on this page.
 
-To create a Seven Bridges account, refer to the [Seven Bridges documentation](https://sb-biodatacatalyst.readme.io/docs/sign-up-biodata-catalyst-powered-by-seven-bridges). If you are new to Seven Bridges, you may find this [Getting Started Guide](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/written-documentation/getting-started/analyze-data-1/seven-bridges/getting-started-guide) helpful.&#x20;
+Let's consider a second case:
+
+* If **Teresa (Terra)** wants to share data with **Sebastian (Seven Bridges)** so that he can use the data on Seven Bridges, Sebastian first needs to create an account on Terra.&#x20;
+* Now Sebastian has an account on Seven Bridges and an account on Terra.&#x20;
+* Teresa can share the data with Sebastian on Terra by sharing the workspace with the data she wants to share with Sebastian. For information on sharing workspaces, refer to the Terra [How to share a workspace](https://support.terra.bio/hc/en-us/articles/360034540171) documentation.&#x20;
 
 ### Billing
 
-The second consideration is making sure the researcher moving data between the two workspaces has billing groups set up on both workspaces to cover cloud costs if necessary. Contact the [BioData Catalyst Help Desk](https://biodatacatalyst.nhlbi.nih.gov/contact) if you have questions about how to get a billing group on Seven Bridges or Terra.
+The second consideration is making sure the researcher moving data between the two workspaces has billing groups set up on both workspaces to cover cloud costs, if necessary. Contact the [BDC Help Desk](https://biodatacatalyst.nhlbi.nih.gov/contact) if you have questions about how to get a billing group on Seven Bridges or Terra.
 
 ## **Moving Files From Terra to Seven Bridges**
 

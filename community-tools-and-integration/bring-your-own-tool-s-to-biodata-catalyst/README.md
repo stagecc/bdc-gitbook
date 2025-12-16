@@ -1,9 +1,5 @@
 # Bring Your Own Tool(s)
 
-Authors: Beth Sheets (UC Santa Cruz, Genomics Institute), Dave Roberson (Seven Bridges)&#x20;
-
-Contributors: Dan Vicente (Seven Bridges), Alison Leaf (Seven Bridges), Stephanie Gogarten (Fellow), Sheila Gaynor (Fellow), Jean Monlong (Fellow), Kenny Westermann (Fellow)
-
 Reproducibility is one of the biggest challenges facing science. Several issues associated with reproducibility have been well summarized in the [FAIR (Findable, Accessible, Interoperable, and Reusability) Guiding Principles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/).  The BDC ecosystem promotes FAIR and reproducible analyses by leveraging Docker-based reproducible tools in two descriptor languages. The [Common Workflow Language (CWL)](https://www.commonwl.org/) is currently supported in Seven Bridges workspaces, while the [Workflow Description Language (WDL)](https://openwdl.org/) is currently supported in Terra workspaces.&#x20;
 
 A combination of software containers (like [Docker](https://www.docker.com/)) and workflow languages wrap your bioinformatics pipeline, making your analysis portable across local and cloud execution environments. This allows researchers to reproduce your method(s) with exactly the same software, dependencies, and configurations. For example, BDC researchers have been able to reuse CWL and WDL versions of a Genome-Wide Association pipeline developed by the TOPMed Data Coordinating Center in multiple cloud workspaces.&#x20;

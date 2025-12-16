@@ -1,8 +1,8 @@
-# Seven Bridges
+# BDC-Seven Bridges
 
 ## **About Seven Bridges**
 
-_BDC-Seven Bridges_ offers researchers collaborative workspaces for analyzing genomics data at scale. Researchers can find and analyze the hosted TOPMed studies by using hundreds of optimized analysis tools and workflows (pipelines); creating their own workflows; or interactive analysis. On the platform, researchers can utilize collaborative workspaces for analyzing genomics data at scale, and access hosted datasets along with Common Workflow Language (CWL) and GENESIS R package pipelines for analysis. This platform also enables users to bring their own data for analysis and work in RStudio and Jupyterlab Notebooks for interactive analysis.
+_BDC-Seven Bridges_ offers researchers collaborative workspaces for analyzing genomics data at scale. Researchers can find and analyze hosted studies by using hundreds of optimized analysis tools and workflows (pipelines); creating their own workflows; or interactive analysis. On the platform, researchers can utilize collaborative workspaces for analyzing genomics data at scale, and access hosted datasets along with Common Workflow Language (CWL) and GENESIS R package pipelines for analysis. This platform also enables users to bring their own data for analysis and work in RStudio and Jupyterlab Notebooks for interactive analysis.
 
 ### **Key Features**
 
