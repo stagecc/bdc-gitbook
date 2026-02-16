@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The five steps and their subparts outlined below provide instructions for submitting data and making it available through BDC. These instructions will be updated as new information and processes are made available.
+The five steps and their subparts outlined below provide instructions for submitting data and making it available through BDC. These instructions will be updated as new information and processes are made available. Before the data submission can take place, the submitter will need an [eRA commons login](https://www.era.nih.gov/). Your institute will need to assist in setting up the login if you do not have one.
 
 {% hint style="success" %}
 **Tip: To reduce the time to ingest and release data, you may work on more than one action at a time.**
@@ -11,7 +11,13 @@ The five steps and their subparts outlined below provide instructions for submit
 * If you have not yet prepared your data, you may complete Step 1 (Intent to Submit) and then simultaneously work on dbGaP Study Registration (see Step 2) and Data Preparation (see Step 3).
 {% endhint %}
 
-### Step 1: Intent to Submit
+## Instructions for Data Submission to BDC
+
+<details>
+
+<summary><strong>Step 1: Initiate the Intent to Submit</strong></summary>
+
+## Step 1: Initiate the Intent to Submit
 
 This step has two data submitter action items, and the first is different for NHLBI intramural investigators than for extramural investigators.
 
@@ -26,43 +32,49 @@ Use the following email template, complete it with information specific to your 
 To: [bdcatalystdatasharing@nih.gov](mailto:bdcatalystdatasharing@nih.gov)\
 Subject: BioData Catalyst Data Submission \[Grant Number / Award Number]&#x20;
 
-| Study Name                                  |   |
-| ------------------------------------------- | - |
-| Institution Name                            |   |
-| PI Name                                     |   |
-| Grant Number/Award Number/ZIA Number        |   |
-| Expected date for data upload/submission    |   |
-| Does this submission include genomics data? |   |
-| Does this submission include biospecimen?   |   |
-| Does this submission include imaging data?  |   |
+| Study Name                                        |   |
+| ------------------------------------------------- | - |
+| Institution Name                                  |   |
+| PI Name                                           |   |
+| Grant Number/Award Number/ZIA Number              |   |
+| Expected date for data upload/submission          |   |
+| Does this submission include genomics data?       |   |
+| Does this submission include biospecimen samples? |   |
+| Does this submission include imaging data?        |   |
 
 :white\_check\_mark: **Result**
 
 After sending the email, you will receive an automated response with the following documents to use in Step 2.
 
-* Institutional Certification Form
-* Data Submission Information Sheet
-* Guidance document for registration of data in dbGaP
+Additionally, depending on what information is included you may receive additional instructions:
 
-:arrow\_right: **Data Submitter Action Item 2: Complete the Institutional Certification and Data Submission Information Sheet** (see results from Step 1, Action 1), and email them to [nhlbigeneticdata@nhlbi.nih.gov](mailto:nhlbigeneticdata@nhlbi.nih.gov).
+* If the study has biospecimen samples, you may be directed to the data submission at NHLBI’s BioLINCC repository.&#x20;
+* If the study has genetic data, or your cohort has genetic data in other Substudies, you will be directed to the NHLBI Genetic Data Access Committee (DAC).
+* If the study or cohort doesn’t have any genetic data, you may will be directed to the NHLBI non-Genetic Data Access Committee (DAC).
+
+:arrow\_right: **Data Submitter Action Item 2: Complete the Institutional Certification (IC) and Data Submission Information (DSI) Sheet**&#x20;
+
+* For genetic data, complete the IC/DSI and email them to [nhlbigeneticdata@nhlbi.nih.gov](mailto:nhlbigeneticdata@nhlbi.nih.gov).
+  * [Data Submission Information Sheet](https://docs.google.com/document/d/13wyrXedIqxLSficmplWe-uOJ-qkXhzGp/edit)
+  * [DUL Statements for Institutional Certification](https://sharing.nih.gov/genomic-data-sharing-policy/institutional-certifications/completing-an-institutional-certification-form#step-5)
+* For non-genetic data, please contact [NHLBI\_nongeneticdata@mail.nih.gov](mailto:NHLBI_nongeneticdata@mail.nih.gov).
 
 :white\_check\_mark: **Results**
 
 * You will receive a response from the Genomic Program Administrator (GPA) confirming receipt of your email.
 * Extramural submitters will also receive a response from the BioData Catalyst Data Management Core (DMC) ([nhlbi.dmc.concierge@rti.org](mailto:nhlbi.dmc.concierge@rti.org)) to provide further assistance or answer data submission-related questions.
 
-{% hint style="info" %}
-**Step 1 Related Links**
+</details>
 
-* [Data Submission Information Sheet](https://docs.google.com/document/d/1PUcukRJ7rtq-9GgFXvc4l2H5cPSqMkoU/edit)
-* [DUL Statements for Institutional Certification](https://sharing.nih.gov/genomic-data-sharing-policy/institutional-certifications/completing-an-institutional-certification-form#step-5)
-{% endhint %}
+<details>
+
+<summary><strong>Step 2: Study Registration in dbGaP</strong></summary>
 
 ### Step 2: Study Registration in dbGaP
 
 All research data shared with BDC must be registered through dbGaP, though the controlled and non-controlled access processes may differ. The DMC will contact you and provide specific guidance in such cases. Study registration has two parts but only one action for data submitters.
 
-:blue\_circle: **The GPA completes the first part of dbGaP study registration and, as a result, generates your study accession number.** The GPA does this by entering information from your Institutional Certification and Data Submission Information Sheet into the dbGaP Submission System. If needed, the GPA may contact you for additional information or clarification or if asking for a data sharing plan and data use agreement.
+:blue\_circle: **The GPA completes the first part of dbGaP study registration generating the study accession number.** The GPA does this by entering information from your Institutional Certification and Data Submission Information Sheet into the dbGaP Submission System. If needed, the GPA may contact you for additional information or clarification or if asking for a data sharing plan and data use agreement.
 
 :white\_check\_mark: **Results**
 
@@ -84,40 +96,53 @@ All research data shared with BDC must be registered through dbGaP, though the c
 * Once you finish your study configuration, dbGaP will curate your submission and may contact you for questions. Once dbGaP completes its curation process, you will receive an email from dbGaP to approve and complete your study registration.
 * Note: While waiting for dbGaP curation, please proceed with data submission to BDC (steps 3 and 4 below) to reduce the time to ingest and release the data.
 
+</details>
+
+<details>
+
+<summary><strong>Step 3: Data Preparation</strong></summary>
+
 ### Step 3: Data Preparation
 
 Data preparation can happen before, during, or after the study registration process and must be completed to submit data to BDC. This step has one action item for all data submitters and a second action item for submitters of omics and phenotypic data types.&#x20;
 
-:arrow\_right: **Data Submitter Action Item 1:** Prepare supplemental documentation to accompany the data submission (“data package”) according to the [Instructions for Preparing Clinical Research Study Datasets for Submission to the NHLBI](https://www.nhlbi.nih.gov/grants-and-training/policies-and-guidelines/guidelines-for-preparing-clinical-study-data-sets-for-submission-to-the-nhlbi-data-repository), including:
+:arrow\_right: **Data Submitter Action Item 1:** Please organize submission into two subfolders: /data and /documentation.
+
+Prepare supplemental documentation (to be placed within the /documentation folder) to accompany the data submission (“data package”) according to the [Instructions for Preparing Clinical Research Study Datasets for Submission to the NHLBI](https://www.nhlbi.nih.gov/grants-and-training/policies-and-guidelines/guidelines-for-preparing-clinical-study-data-sets-for-submission-to-the-nhlbi-data-repository), including:
 
 * Protocols
+* Survey Instruments\*
 * BDC compliant Data Dictionaries
   * **Clinical Data** - Find dbGaP Data Dictionary description [here](https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#8-what-is-a-phenotype-data-dicti) and a sample Data Dictionary file [here](https://docs.google.com/spreadsheets/d/1T5S9uDDduYtu8zHEQSkFf1qB6aU21oM8/edit?usp=drive_link\&ouid=111015420209812015356\&rtpof=true\&sd=true)
     * As separate files for each of the data files (not as a tab within the data file)\*
   * **Imaging Data** - Find dbGaP Data Dictionary description [here](https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#15-how-do-i-submit-medical-image) and a sample Data Dictionary file [here](https://docs.google.com/spreadsheets/d/1vwmqe0KR3AYXLcYVM6XFgscKSWGJa8BA/edit?usp=drive_link\&ouid=111015420209812015356\&rtpof=true\&sd=true)
-* Survey Instruments
-* Data/Metadata model, if applicable
+* Subject consent files (2a/2b in dbGaP submission above) for QC
 * Datasets Readme\*
-  * Specify data file name and variable name for “subject ID” and “age”
-  * Datasets organization - if the datasets are organized in multiple sub-folders, need a Readme file to describe the relationship of the sub-folders, if they are independent (e.g., multiple phases or visits), main studies with ancillary studies, or overlapping (e.g., /raw data and /harmonized data, where the /harmonized data is a subset of the /raw data).
-  * Describe the de-identification methods, see example file [here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/data-management/data-submission-instructions/de-identification-readme) \*
+  * Specify data file name and variable name for “subject ID” and “age” (please note if age variable has been winsorized or removed).
+  * File/folder naming: lowercase file extensions (.csv instead of .CSV), no spaces or special characters
+  * Datasets organization - if the datasets are organized in multiple sub-folders, need a Readme file to describe the relationship of the sub-folders, if they are independent (e.g., multiple phases or visits), main studies with ancillary studies, or overlapping (e.g., /raw data and /harmonized data, where the /harmonized data is a subset of the /raw data). See example file [here](https://docs.google.com/document/d/1yCkbkJb9aEEiCVmuDd2klskkisrVzdQz/edit?usp=drive_link\&ouid=111015420209812015356\&rtpof=true\&sd=true) for an image study.
+  * Compressed and archive file formats - e.g. ZIP, GZ, TAR - No nested archives, e.g., no zip files within a zip file. The Readme file may describe the directory structure of the compressed/archive files within the bucket, and/or the directory structure within the compressed/archive files.
+  * Describe the de-identification methods, see example file [here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/data-management/data-submission-instructions/de-identification-readme) for clinical data, and [here](https://drive.google.com/drive/folders/1f7QipD_wyrRFM5AXKO8WA_1wnfy2_4Jz?usp=drive_link) for [DICOM](https://drive.google.com/file/d/1oKFvlI_3NtmfbS8xCD9JDg1LOvimmhBs/view?usp=drive_link), [ECG](https://drive.google.com/file/d/1sHhhOx-aPPkfriBS8QXS0r2kUJstyQL2/view?usp=drive_link), [Echo](https://drive.google.com/file/d/1rHz7WgcBfwE-wvbjZCxFX6uf5IiaL73G/view?usp=drive_link), and CT\*
+* Data/Metadata model if applicable
 * Additional Supplemental documentation to reproduce study results
 
-_\* Supported documentation types for data dictionaries and models are .csv, tab-delimited, xml, json, and other machine-readable formats. PDF and SAS file formats are not machine-readable and are discouraged from submission. File name should not include any spaces and special characters._
+_\* Supported documentation types for data dictionaries and models are .csv, tab-delimited, xml, json, and other machine-readable formats. PDF and SAS file formats are not machine-readable and are discouraged from submission. File names should not include any spaces and special characters._
 
 :arrow\_right: **Data Submitter Action Item 2:** Only for Omics and Phenotypic data types, prepare the data files per the [dbGaP Study Submission Guidance](https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#aconfig).
 
-### Step 4: Data Submission to BioData Catalyst (BDC)
+</details>
+
+<details>
+
+<summary><strong>Step 4: Data Submission to BDC</strong></summary>
+
+### **Step 4: Data Submission to BDC**
 
 Data submission has two action items for data submitters. This process can happen in parallel with Data Submitter Action Item 1 from Step 2. The data submission process begins by filling out the BDC contact form: [https://biodatacatalyst.nhlbi.nih.gov/contact](https://biodatacatalyst.nhlbi.nih.gov/contact).
 
-:arrow\_right: **Data Submitter Action Item 1: Request bucket creation by filling out the BDC contact form using the following information:**
+:arrow\_right: **Data Submitter Action Item 1: Request bucket creation:**
 
-* Your institutional email address used for NIH eRA Commons
-* Subject: Data Submission
-* Type: Data Submission (select in the dropdown menu)
-* In the body of the message, 1) include your dbGaP PHS accession number and 2) request access for read/write permission to the assigned cloud bucket
-  * In the rare case that your institute can’t access any cloud services hosted by Google or Amazon, request assistance for direct data upload from your data package location (e.g., SFTP transfer)
+* Send request to the DMC staff by providing 1) dbGaP PHS accession number (phs#) received from step 2, and 2) study consent group information (dbGaP submission 2a/2b files prepared in step 2)
 
 Data upload may not begin until your data is prepared (see Step 3: Data Preparation), and you receive an invitation from dbGaP to complete your study submission and configuration (see the Results section in Step 2.
 
@@ -135,13 +160,15 @@ If you have any questions or issues about accessing the buckets, please contact 
 
 <figure><img src="../.gitbook/assets/Picture5.png" alt=""><figcaption></figcaption></figure>
 
-Once selected the specific bucket for a consent group, use the “Upload” button to upload data files.
+Once selected the specific bucket for a consent group, use the “Upload” button to upload data files. Please upload data files to the /data subfolder (NOT the root level), and the documentation files to the /documentation folder.
 
 <figure><img src="../.gitbook/assets/Picture6.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;If you choose to use the GCP platform, see screenshot below (“upload” highlighted)
+</details>
 
-<figure><img src="../.gitbook/assets/Picture7.png" alt=""><figcaption></figcaption></figure>
+<details>
+
+<summary><strong>Step 5: Next Steps</strong></summary>
 
 ### Step 5: Next Steps
 
@@ -154,6 +181,8 @@ Once your data package is uploaded successfully, the data go through quality che
 After data clears the data quality checks, the ingestion and release process can take as few as 4-6 weeks. After the data is released, the DMC will notify you that your study is available for use by authorized individuals in BDC ([study inventory](https://biodatacatalyst.nhlbi.nih.gov/resources/data/studies/)).
 
 :arrow\_right: **Data Submitter Action Item 3: You are encouraged to log in and view your study data in BDC.**
+
+</details>
 
 ## Need Assistance?
 
