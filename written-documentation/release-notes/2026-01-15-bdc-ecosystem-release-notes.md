@@ -6,7 +6,7 @@
 
 The 2026-01-15 release marks the 24th update to the BDC ecosystem. This release introduces several new features, including expanded data access, new interoperability tools, enhanced compute capabilities, and new bioinformatics workflows.
 
-The 2026-01-15 data releases include the addition of 42 new datasets. See the Data Releases section below for more information.
+The 2026-01-15 data releases include the addition of 51 new datasets. See the Data Releases section below for more information.
 
 ### Significant new features&#x20;
 
