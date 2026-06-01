@@ -23,6 +23,7 @@
   * [Submitting a dbGaP Data Access Request](written-documentation/data-access/submitting-a-dbgap-data-access-request.md)
   * [Checking Access](data-access/check-my-access-to-data.md)
 * [Explore Available Data](written-documentation/explore-available-data/README.md)
+  * [Understanding Data Harmonization in BDC](written-documentation/explore-available-data/understanding-data-harmonization-in-bdc.md)
   * [Dug Semantic Search](written-documentation/explore-available-data/dug-semantic-search/README.md)
     * [Search and Results](written-documentation/explore-available-data/dug-semantic-search/search-and-results.md)
   * [NHLBI BioData Catalyst® Powered by PIC-SURE User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide/README.md)
