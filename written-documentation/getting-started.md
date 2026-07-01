@@ -1,6 +1,6 @@
 ---
 description: >-
-  Documentation for getting started on the NHLBI BioData CatalystⓇ (BDC)
+  Documentation on getting started on the NHLBI BioData CatalystⓇ (BDC)
   ecosystem.
 ---
 
