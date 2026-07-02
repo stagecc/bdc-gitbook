@@ -2,7 +2,7 @@
 
 The Discover page allows you to search any clinical variable available in PIC-SURE. Queries will return obfuscated aggregate counts per study and consent. There are some features specific to the Discover page, which are outlined below.
 
-<figure><img src="../../../../../.gitbook/assets/openpicsurev3.png" alt=""><figcaption><p>Specific features and layout of Discover.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/discover.png" alt=""><figcaption><p>Specific features and layout of Discover page.</p></figcaption></figure>
 
 **A: Faceted search.** The panel on the left-hand side of the screen provides options, or facets, to narrow down your search results.
 
@@ -39,3 +39,5 @@ Some additional variables are not filterable to protect participant anonymity. Y
 * If the participant count is ten or greater, but the count consists of subgroups (such as consent groups) that are between zero and nine, the count will be obfuscated by +/- 3.
 
 **F. Build Advanced Query.** Enables researchers to create complex queries by defining logical operators ("and" vs. "or") and grouping related filters. For more information, please refer to the [Building Advanced Queries section](../building-advanced-queries.md).
+
+**G. Variable Distributions Tool.** Use this tool to view distributions graphs for the selected cohort. Continuous data will be shown as histograms while categorical variables will be shown as bar plots. Because participant-level data are not available in Discover, note that the graphs will be obfuscated to ensure data anonymity. See the rules above in the "Participant counts in the Results Panel" section.

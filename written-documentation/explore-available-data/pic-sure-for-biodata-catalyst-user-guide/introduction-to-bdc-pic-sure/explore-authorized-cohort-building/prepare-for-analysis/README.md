@@ -16,7 +16,7 @@ Note: Queries with more than 1,000,000 data points will not be exportable.
 
 ## Step 2: Select Export Type
 
-To complete the export, the user will need to decide what format they would like their participant-level data to be in. There are three options: Export as Data Frame or CSV, Export as Timeseries, or Export as PFB. For more detailed information about these data formats, please refer to [Format of Participant-Level Data](https://github.com/emhug/bdc-docs/blob/main/introduction-to-pic-sure/explore-authorized-cohort-building/prepare-for-analysis/format-of-participant-level-data.md)
+To complete the export, the user will need to decide what format they would like their participant-level data to be in. There are three options: Export as Data Frame or CSV, Export as Timeseries, or Export as PFB. For more detailed information about these data formats, please refer to [Format of Participant-Level Data](https://github.com/emhug/bdc-docs/blob/main/introduction-to-pic-sure/explore-authorized-cohort-building/prepare-for-analysis/format-of-participant-level-data.md).
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-05-05 at 9.41.41 AM.png" alt=""><figcaption><p>Step 2: Select export format.</p></figcaption></figure>
 
@@ -36,7 +36,7 @@ The Export as PFB option should be selected if you are interested in exporting y
 
 ## Step 3: Save Dataset ID
 
-The next step is to save the dataset ID. The dataset ID is the unique identifier that is created for the specific query you have created. Type a name for the dataset ID into the field in order to save the dataset ID for future reference. For more information about accessing and managing previously saved dataset IDs, please refer to the [Manage Datasets section](https://github.com/emhug/bdc-docs/blob/main/introduction-to-pic-sure/explore-authorized-cohort-building/manage-datasets.md)
+The next step is to save the dataset ID. The dataset ID is the unique identifier that is created for the specific query you have created. Type a name for the dataset ID into the field in order to save the dataset ID for future reference. For more information about accessing and managing previously saved dataset IDs, please refer to the [Manage Datasets section](https://github.com/emhug/bdc-docs/blob/main/introduction-to-pic-sure/explore-authorized-cohort-building/manage-datasets.md).
 
 <figure><img src="../../../../../../.gitbook/assets/step3_checkout_2.png" alt=""><figcaption><p>Step 3: Save dataset ID step, showing a dataset ID named as "test_dataset_id".</p></figcaption></figure>
 

@@ -4,7 +4,7 @@
 
 The Explore page provides access to complete, participant-level data, in addition to aggregate counts. There are some features specific to the Explore page, outlined below.
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Specific layout and features of the Explore page.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/explore (1).png" alt=""><figcaption><p>Specific layout and features of the Explore page.</p></figcaption></figure>
 
 **A: Faceted search.** The panel on the left-hand side of the screen provides options, or facets, to narrow down your search results.
 
@@ -26,3 +26,5 @@ The Explore page provides access to complete, participant-level data, in additio
 **C: Prepare for Analysis.** Once at least one filter has been added, the Prepare for Analysis button can be used to retrieve participant-level data corresponding to your filters and variable selections. To learn more about data retrieval options, please refer to the [Prepare for Analysis section](prepare-for-analysis/).
 
 **H. Build Advanced Query.** Enables researchers to create complex queries by defining logical operators ("and" vs. "or") and grouping related filters. For more information, please refer to the [Building Advanced Queries section](../building-advanced-queries.md).
+
+**G. Variable Distributions Tool.** Use this tool to view distributions graphs for the selected cohort. Continuous data will be shown as histograms while categorical variables will be shown as bar plots.

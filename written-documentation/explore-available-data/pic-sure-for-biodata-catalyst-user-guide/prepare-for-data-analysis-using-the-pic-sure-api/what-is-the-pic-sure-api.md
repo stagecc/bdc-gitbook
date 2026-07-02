@@ -8,6 +8,12 @@ PIC-SURE is available via an Application Programming Interface (API), allowing r
 
 Based on the coding language, the data will be exported as a Python or R data frame. This format allows researchers to kickstart their analysis by applying statistical and analytical functions or packages on this exported data frame.
 
-{% embed url="https://github.com/hms-dbmi/Access-to-Data-using-PIC-SURE-API/tree/master/NHLBI_BioData_Catalyst" %}
+{% hint style="warning" %}
+In June 2026, the PIC-SURE Python and R API was updated to enable expanded functionality, like advanced query building and faceted search.&#x20;
+
+The previous version of the Python and R API will no longer be supported. We recommend updating your code to use the new version to avoid issues.&#x20;
+{% endhint %}
+
+{% embed url="https://github.com/hms-dbmi/Access-to-Data-using-PIC-SURE-API/tree/release_2026" %}
 
 Go to the **Prepare for Analysis** tab on _BDC-PIC-SURE_ to learn more about the PIC-SURE API and access additional documentation.

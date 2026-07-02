@@ -62,7 +62,7 @@ The second is a Timeseries CSV, where there are consistent columns for participa
 
 The third is a Portable Format for Biomedical Data, or PFB file. This includes two tables: one is the Dataframe table described above, and the other is a data dictionary table with more information about the variables added. This is exported as an avro file.
 
-For more detailed information, please refer to the Prepare for Analysis section.
+For more detailed information, please refer to the [Prepare for Analysis section](../../written-documentation/explore-available-data/pic-sure-for-biodata-catalyst-user-guide/introduction-to-bdc-pic-sure/explore-authorized-cohort-building/prepare-for-analysis/).
 
 </details>
 
@@ -70,6 +70,6 @@ For more detailed information, please refer to the Prepare for Analysis section.
 
 <summary>How can I analyze my results in an analysis platform in BioData Catalyst?</summary>
 
-There are a few ways to bring the selected participant-level data from BDC-PIC-SURE into one of the BDC analysis platforms, BDC-Seven Bridges or BDC-Terra. To learn more about this, please refer to the Analysis in the BioData Catalyst Ecosystem page.
+There are a few ways to bring the selected participant-level data from BDC-PIC-SURE into one of the BDC analysis platforms, BDC-Seven Bridges or BDC-Terra. To learn more about this, please refer to the [Analysis in the BioData Catalyst Ecosystem page](../../written-documentation/explore-available-data/pic-sure-for-biodata-catalyst-user-guide/prepare-for-data-analysis-using-the-pic-sure-api/analysis-in-the-bdc-ecosystem/).
 
 </details>
