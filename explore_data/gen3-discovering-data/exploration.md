@@ -49,14 +49,13 @@ After a cohort has been selected, the user has four different options for export
 
 #### Export
 
-The options for export are as follows:
+The options for data export are as follows:
 
-![Four options offered for data export.](../../.gitbook/assets/bdc_dec20_expl_datatab_export.png)
+<figure><img src="../../.gitbook/assets/Gen3_Explorer_Export.png" alt="Exporer Data Export Options"><figcaption></figcaption></figure>
 
 * `Export All to Terra` :  Initiate a [Portable Format for Bioinformatics (PFB)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://terra.biodatacatalyst.nhlbi.nih.gov/). At this time the max number of subjects that can be exported to Terra is 120,000.
 * `Export All to Seven Bridges`: Initiate a [Portable Format for Bioinformatics (PFB)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Seven Bridges. ](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/)
 * `Export to PFB` : Initiate a [PFB](./) export of all clinical data and file GUIDs for the selected cohort to your local storage.
-* `Export to Workspaces` : Export a manifest to the user's workspace and make the case-associated data files available in the workspace under the `/pd/data` directory.
 
 > **NOTE**: PFB export times can take up to 60 minutes, but often will complete in less than 10 minutes.&#x20;
 
@@ -84,7 +83,6 @@ Once the user has selected a cohort, there are five options for accessing the fi
 ![Five button options offered for file download or export. ](../../.gitbook/assets/bdc_dec20_expl_filetab_export.png)
 
 * `Download Manifest`: Download the file manifest and use this manifest to download the enlisted data files using the [gen3-client](https://gen3.org/resources/user/gen3-client/).&#x20;
-* `Export to Workspace`: The files can be exported to a Gen3 workspace.
 * `Export All PFB`: Initiate a [PFB](./) export of the selected files.
 * `Export All to Terra`: Initiate a [PFB](./) export of the selected files to [BioData Catalyst powered by Terra](https://terra.biodatacatalyst.nhlbi.nih.gov/).&#x20;
 * `Export All to Seven Bridges`: Initiate a [PFB](./) export of the selected files to [BioData Catalyst powered by Seven Bridges. ](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/)

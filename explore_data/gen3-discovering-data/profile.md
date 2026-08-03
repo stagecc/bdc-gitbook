@@ -20,4 +20,5 @@ Click **Download json** to save the credential file to your local machine. After
 
 ### Project Access
 
-This section of the Profile page lists the projects and the methods of access for the data within in the _BDC-Gen3_ system. If you do not see access to a specific study, check that you have been granted access within [dbGaP](https://www.ncbi.nlm.nih.gov/gap/). If access has been granted for over a week, contact the BDC Help Desk: bdcat-support@datacommons.io
+This section of the Profile page lists the projects and the methods of access for the data within in the _BDC-Gen3_ system. If you do not see access to a specific study, check that you have been granted access within [dbGaP](https://www.ncbi.nlm.nih.gov/gap/). If access has been granted for over a week, contact the BDC Help Desk: [https://biodatacatalyst.nhlbi.nih.gov/help-and-support/contact-us/](https://biodatacatalyst.nhlbi.nih.gov/help-and-support/contact-us/)
+

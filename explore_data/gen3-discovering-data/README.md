@@ -1,7 +1,7 @@
 ---
 description: >-
   How to login to the BDC Powered by Gen3 (BDC-Gen3) platform and view available
-  genomic and phenotypic data.
+  genomic, imaging,  and phenotypic data.
 ---
 
 # Discovering Data Using Gen3
@@ -10,13 +10,13 @@ description: >-
 
 In order to navigate and access data available on the Gen3 platform, start by visiting the [login page](https://gen3.biodatacatalyst.nhlbi.nih.gov/login). You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes (dbGaP)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, login by selecting **NIH Login** and using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BDC consortia developers can login using their Google accounts. Make sure to use the correct login method that contains access to your available projects.
 
-![](../../.gitbook/assets/Gen3-login.png)
+<figure><img src="../../.gitbook/assets/gen3_login_page.png" alt=""><figcaption></figcaption></figure>
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files available within the BDC platform.
 
 > **NOTE**: These numbers may differ from those displayed in the dbGaP records as they include TOPMed studies as well as the associated parent studies.&#x20;
 
-![Post-login view of the BDC-Gen3 front page.](../../.gitbook/assets/bdc_dec20_firstpage_after_login.png)
+<figure><img src="../../.gitbook/assets/Gen3_homepage.png" alt=""><figcaption></figcaption></figure>
 
 ## Types of Hosted Data <a href="#types-of-hosted-data" id="types-of-hosted-data"></a>
 
@@ -36,16 +36,21 @@ The Gen3 platform hosts genomic data provided by the [Trans-Omics for Precision 
 
 All files are available under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page. More detailed information on currently hosted data on the Gen3 platform can be found [here](parent-study-versus-topmed-study.md).
 
+### Imaging
 
+The Gen3 platform also hosts a variety of imaging collections from programs such as  [The Multi-Ethnic Study of Atherosclerosis ](https://mesa-nhlbi.org/)(MESA), [COPDGene](https://copdgene.org/), and the [Jackson Heart Study](https://www.jacksonheartstudy.org/).  These collections include ECG, echocardiograms, CAT scans and DICOM series. &#x20;
 
 ## Gen3 Pages <a href="#gen3-pages" id="gen3-pages"></a>
 
 The _BDC-Gen3_ platform contains five pages described below:
 
-* [**Dictionary**](dictionary.md)**:** An interactive data dictionary display that details the contents and relationships between clinical and biospecimen data
+* [**Dictionary:**](dictionary.md) An interactive data dictionary display that details the contents and relationships between clinical and biospecimen data
+* [**Discovery:** ](../../written-documentation/explore-available-data/gen3-discovering-data/discovery.md) Study level page where researchers can browse and search study-level metadata to find relevant studies. &#x20;
 * [**Exploration**](exploration.md)**:** The facet filter custom cohort creation tool
-* [**Query**](query.md)**:** The GraphQL query tool to retrieve specific data within the graph model
-* [**Workspace**](workspace.md)**:** The launch page for Gen3 workspaces that includes Jupyter Notebooks and RStudio
+* Data Library: A location where discovery searches can be saved and from where full study harmonized and file-only PFBs can be exported.&#x20;
 * [**Profile**](profile.md)**:** The information page for each user, displaying access and the location for credential file downloads
 
-![The BDC-Gen3 Pages.](../../.gitbook/assets/page_toolbar.png)
+<figure><img src="../../.gitbook/assets/Gen3_Pages.png" alt=""><figcaption></figcaption></figure>
+
+Additionally, BDC-Gen3 supports a [**query**](query.md) page which allows researchers to search the data model for facets that are not exposed on the Explorer page.&#x20;
+

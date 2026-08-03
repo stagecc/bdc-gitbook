@@ -8,7 +8,7 @@ description: >-
 
 ## Current Project IDs
 
-A list of **current project IDs** can be found in the Data tab, under Filters>Project>Project Id. The current project IDs are:
+A list of **current project IDs** can be found in the Data tab, under Filters>Project>Project Id. A sample of current project IDs are:
 
 * Parent
 * TOPMed&#x20;
