@@ -6,4 +6,8 @@ Terra supports the following types of analysis: Batch processing with Workflows 
 * [Interactive analysis with Jupyter Notebooks](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/running-analyses-on-terra/interactive-analysis-with-jupyter-notebooks)
 * [Genome-wide association studies](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/running-analyses-on-terra/genome-wide-association-studies)
 
-As an introduction, we recommend reading our article on the [kinds of analysis you can do in Terra](https://support.terra.bio/hc/en-us/articles/360022714931). &#x20;
+As an introduction, we recommend reading our article on the kinds of analysis you can do in Terra.
+
+
+
+If you experience problems running your DRS URI workflows, we recommend reading our article on Troubleshooting DRS Workflows.

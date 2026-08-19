@@ -6,7 +6,7 @@ Generally, there are two types of data that researchers typically bring to Terra
 
 There are two ways a researcher's data files may be made available in Terra: By uploading data to the researcher's workspace bucket or enabling Terra to access the researcher's data in a researcher managed Google bucket, for which you need to set up a proxy group.
 
-Article: [Uploading to a workspace Google bucket](https://support.terra.bio/hc/en-us/articles/360024056512-Uploading-to-a-workspace-Google-bucket)​\
+Article: [How (and why) to save data generated in a notebook to workspace storage (Google Bucket)](https://support.terra.bio/hc/en-us/articles/360027300571-How-and-why-to-save-data-generated-in-a-notebook-to-workspace-storage-Google-Bucket)​\
 Article: [Understanding and setting up a proxy group](https://support.terra.bio/hc/en-us/articles/360031023592-Understanding-and-setting-up-a-proxy-group)
 
 The ways in which a researcher may import metadata to the Terra Data tables are described in the​ articles and tutorials below:

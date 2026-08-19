@@ -6,8 +6,5 @@ A key to understanding the power of Terra is understanding it’s built-in data 
 
 The following resources give you guided instructions using cloud-based data with Terra:\
 \
-Article: ​[Managing data with table](https://support.terra.bio/hc/en-us/articles/360025758392)[\
-](https://support.terra.bio/hc/en-us/articles/360025758392)VIdeo: [Introduction to Terra data tables](https://www.youtube.com/watch?v=IeLywroCNNA\&t=8s)[\
-](https://support.terra.bio/hc/en-us/articles/360025758392)Article: [Uploading to a workspace Google bucket](https://support.terra.bio/hc/en-us/articles/360024056512-Uploading-to-a-workspace-Google-bucket)​\
-Article: ​[How to import metadata to a workspace data table](https://support.terra.bio/hc/en-us/articles/360036954991-How-to-import-metadata-to-a-workspace-data-table)[\
-](https://www.youtube.com/watch?v=IeLywroCNNA\&t=8s)Video: [Making and uploading data tables to Terra](https://www.youtube.com/watch?v=2MxSlKhIrFY\&t=1s)
+Article: ​[Managing data with table](https://support.terra.bio/hc/en-us/articles/360025758392)[<br>](https://support.terra.bio/hc/en-us/articles/360025758392)Video: [Introduction to Terra data tables](https://www.youtube.com/watch?v=IeLywroCNNA\&t=8s)[<br>](https://support.terra.bio/hc/en-us/articles/360025758392)Article: [How to move data to/from a Google bucket](https://support.terra.bio/hc/en-us/articles/4409101169051-How-to-move-data-to-from-a-Google-bucket)​\
+Article: ​[How to import metadata to a workspace data table](https://support.terra.bio/hc/en-us/articles/360036954991-How-to-import-metadata-to-a-workspace-data-table)[<br>](https://www.youtube.com/watch?v=IeLywroCNNA\&t=8s)Video: [Making and uploading data tables to Terra](https://www.youtube.com/watch?v=2MxSlKhIrFY\&t=1s)

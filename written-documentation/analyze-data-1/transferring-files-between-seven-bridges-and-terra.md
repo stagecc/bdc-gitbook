@@ -49,7 +49,7 @@ The second consideration is making sure the researcher moving data between the t
 
 The following steps describe how to use the Seven Bridges platform to pull data securely from a Terra workspace into a Seven Bridges project.
 
-Refer to the [Terra documentation for Moving data to/from a Google bucket (workspace or external)](https://support.terra.bio/hc/en-us/articles/360024056512-Moving-data-to-from-a-workspace-Google-bucket), specifically the section [Upload and download data files in a terminal using gsutil](https://support.terra.bio/hc/en-us/articles/360024056512-Moving-data-to-from-a-workspace-Google-bucket#h_01EGP8GR3G10SKRXAC7H1ENXQ3). This method:
+Refer to the [Terra documentation for Moving data to/from a Google bucket (workspace or external)](https://support.terra.bio/hc/en-us/articles/4409101169051-How-to-move-data-to-from-a-Google-bucket), specifically the section [Upload and download data files in a terminal using gsutil](https://support.terra.bio/hc/en-us/articles/4409101169051-How-to-move-data-to-from-a-Google-bucket#h_01HMCPNJKCKARBR9WPJKZ0FMCF). This method:
 
 * Works well for all size transfers.
 * Ideal for large file sizes or 1000s of files.

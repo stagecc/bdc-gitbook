@@ -26,7 +26,7 @@ By increasing access to the NHLBI’s datasets and innovative data analysis capa
 
 **Who is developing BDC?**
 
-The ecosystem is funded by the National Heart, Lung, and Blood Institute (NHLBI). Researchers and other professionals receive funding from the NHLBI to work on the development of the ecosystem, together often referred to as “The BDC Consortium” . You can refer to [a list of partners and platforms powering the ecosystem](https://biodatacatalyst.nhlbi.nih.gov/about/overview/) on the Overview page of the BDC website and a [list of the principal investigators](community-conduct/who-we-are.md) is available in our documentation.
+The ecosystem is funded by the National Heart, Lung, and Blood Institute (NHLBI). Researchers and other professionals receive funding from the NHLBI to work on the development of the ecosystem, together often referred to as “The BDC Consortium” . You can refer to [a list of partners and platforms powering the ecosystem](https://biodatacatalyst.nhlbi.nih.gov/about/overview/) on the Overview page of the BDC website and a [list of the principal investigators](/broken/pages/-M5S9tHtNc7SdMprltlf) is available in our documentation.
 
 **Find out the meanings of our terms and acronyms.**
 
@@ -81,7 +81,7 @@ There are limited amounts of harmonized data available to users with appropriate
 
 **Bring your own data and workflows into the system.**
 
-We allow researchers to bring their own data and workflows into the ecosystem to support their analysis needs. Researchers can bring their own datasets into [_BioData Catalyst Powered by Seven Bridges_](https://sb-biodatacatalyst.readme.io/docs/upload-to-the-platform) and [_BioData Catalyst Powered by Terra_](written-documentation/analyze-data-1/terra/bringing-data-into-a-workspace/using-your-own-data-with-terra.md). Users can also bring their own workflows to the system. Users can either add workflows to [Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/dockstore/contribute-to-the-community) in CWL or WDL, or they can [create CWL tools](https://sb-biodatacatalyst.readme.io/docs/about-the-common-workflow-language) directly on _BioData Catalyst Powered by Seven Bridges_ and [develop custom workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/) for use on _BioData Catalyst Powered by Terra._
+We allow researchers to bring their own data and workflows into the ecosystem to support their analysis needs. Researchers can bring their own datasets into [_BioData Catalyst Powered by Seven Bridges_](https://sb-biodatacatalyst.readme.io/docs/upload-to-the-platform) and [_BioData Catalyst Powered by Terra_](written-documentation/analyze-data-1/terra/bringing-data-into-a-workspace/using-your-own-data-with-terra.md). Users can also bring their own workflows to the system. Users can either add workflows to [Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/dockstore/contribute-to-the-community) in CWL or WDL, or they can [create CWL tools](https://sb-biodatacatalyst.readme.io/docs/about-the-common-workflow-language) directly on _BioData Catalyst Powered by Seven Bridges_ and [develop custom workflows](written-documentation/community-tools-and-integration-1/bring-your-own-tool-s-to-biodata-catalyst/) for use on _BioData Catalyst Powered by Terra._
 
 **Learn about Genome-wide association study and genetic association testing on BioData Catalyst.**
 
