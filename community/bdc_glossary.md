@@ -37,6 +37,8 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **Beta-User Training**
 
     Once the platform is available to a broader audience, we will support freely-accessible online training for beta-users at any time.
+* **CADR**\
+  Controlled-access data repository, intended to store sensitive human clinical and genomic research data.
 *   **Carpentries Instructor Training Program**
 
     Ambassadors attend this training program to become BDC trainers.
@@ -120,6 +122,8 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **DEV Environment**
 
     Set of processes and programming tools used to create the program or software product
+* **Developer Access**\
+  Streamlined access to BDC's controlled-access data, granted to BDC developers.
 *   **DMI**
 
     Data Management Incident
@@ -169,6 +173,8 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **FireCloud**
 
     Broad Institute secure cloud environment for analytical processing, https://software.broadinstitute.org/firecloud/
+* **FHIR**\
+  Fast Healthcare Interoperability Resources; an HL7 International modern data standard allowing medical systems to share health records.
 *   **FISMA moderate environment**
 
     Federal Information Security Modernization Act of 2014, amends the Federal Information Security Management Act of 2002 (FISMA), see https://www.dhs.gov/fisma
@@ -202,6 +208,8 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **HLBS**
 
     Heart, Lung, Blood, Sleep
+* **IAL2**\
+  Identity Assurance Level 2 (IAL2); a federal National Institute of Standards and Technology ([NIST](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/ial2remote/)) standard proving a user's digital account connects to a real, verified person.
 *   **Identity Providers**
 
     A system entity that creates, maintains, and manages identity information for principals while providing authentication services to relying applications within a federation or distributed network; identity providers offer user authentication as a service
@@ -259,9 +267,13 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **OTA**
 
     Other Transaction Authority - the mechanism of award that NHLBI chose because it provides a degree of flexibility in the scope of the work that is needed to advance this type of high risk/high reward project
+* **Passport**\
+  Link to GA4GH definition: [https://www.ga4gh.org/product/ga4gh-passports/](https://www.ga4gh.org/product/ga4gh-passports/)
 *   **PI**
 
     Principal Investigator
+* **PIC-SURE** \
+  Patient Information Commons - Standard Unification of Research Elements; a search, query, and export platform that integrates clinical and genomic data
 *   **Platform**
 
     A piece of the BDC ecosystem. Examples: Terra, Gen3, Seven Bridges, etc.
@@ -279,6 +291,8 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **Portfolio for Jira**
 
     Software-as-a-Service project management tool, used to track, roadmap, and visualize various project metrics.
+* **Public studies**\
+  Studies that are not registered in dbGaP and are open to the public for exploration
 *   **Python**
 
     Open source programming language, used extensively in research for data manipulation, analysis, and modeling
@@ -326,9 +340,9 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 *   **STRIDES**
 
     Science & Technology Research Infrastructure for Discovery, Experimentation, and Sustainability
-*   **Task**
-
-    In workflow writing, the term task encompasses all of the information necessary to execute a command, such as specifying input/output files and parameters.&#x20;
+* **Task**
+  * **In workflow writing**: All information necessary to execute a command, such as specifying input/output files and parameters.
+  * **In Seven Bridges**: A single execution of an app inside a project; pairs an app with a specific set of input files and parameter values and runs on one or more cloud instances.
 *   **Team**
 
     Groups of people led by a Principal Investigator (PI), or PIs, who will complete milestones and produce deliverables. Each group has been assigned a name, represented by the elements on the periodic chart.
