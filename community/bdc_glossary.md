@@ -268,7 +268,7 @@ description: Glossary of terms used in the context of the BDC Consortium and pla
 
     Other Transaction Authority - the mechanism of award that NHLBI chose because it provides a degree of flexibility in the scope of the work that is needed to advance this type of high risk/high reward project
 * **Passport**\
-  Link to GA4GH definition: [https://www.ga4gh.org/product/ga4gh-passports/](https://www.ga4gh.org/product/ga4gh-passports/)
+  Contains a researcher’s securely-encoded “Visas,” which allow access to genomic datasets; definition from [GA4GH](https://www.ga4gh.org/product/ga4gh-passports/).
 *   **PI**
 
     Principal Investigator
