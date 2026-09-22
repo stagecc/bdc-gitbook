@@ -11,7 +11,6 @@
 
 ## Written Documentation
 
-* [Getting Started](written-documentation/getting-started.md)
 * [Data Access](written-documentation/data-access/README.md)
   * [Data Interoperability](written-documentation/data-access/data-interoperability.md)
   * [Understanding Access](written-documentation/data-access/understanding-access-requirements-for-biodata-catalyst.md)
