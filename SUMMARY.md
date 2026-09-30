@@ -147,7 +147,6 @@
   * [2020-08-24 BioData Catalyst Ecosystem Release Notes](written-documentation/release-notes/2020-08-24-biodata-catalyst-ecosystem-release-notes.md)
   * [2020-04-02 BioData Catalyst Ecosystem Release Notes](written-documentation/release-notes/2020-04-02-biodata-catalyst-ecosystem-release-notes.md)
 * [Data Versioning Release Notes](written-documentation/data-versioning-release-notes.md)
-* [NIH RECOVER Release Notes](written-documentation/nih-recover-release-notes.md)
 
 ## Tutorials: Videos & Modules
 
